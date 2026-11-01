@@ -1,0 +1,512 @@
+[
+ {
+  "station": "Vauxhall",
+  "area": "Lambeth",
+  "head": "'Vauxhall' means Falkes' Hall, the house of a medieval knight.",
+  "text": "Falkes de Breauté built it in the 13th century. Later, Vauxhall Pleasure Gardens were famous across Europe, and the car maker took its name from the area.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Vauxhall",
+   "https://en.wikipedia.org/wiki/Falkes_de_Breaut%C3%A9",
+   "https://en.wikipedia.org/wiki/Vauxhall_station",
+   "https://londonist.com/london/transport/how-the-victoria-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Victoria",
+  "area": "Westminster",
+  "head": "Named after Victoria Street, which honours Queen Victoria.",
+  "text": "The main line station took the street's name in 1860. It stands on the site of an old basin of the Grosvenor Canal.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/London_Victoria_station",
+   "https://en.wikipedia.org/wiki/London_Victoria_station%23London_Underground_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Walthamstow Central",
+  "area": "Waltham Forest",
+  "head": "'Walthamstow' probably means the place of welcome.",
+  "text": "It was recorded in 1075 as Wilcumestowe. 'Central' tells it apart from other stations in the town. The Victoria line arrived in 1968.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Walthamstow",
+   "https://en.wikipedia.org/wiki/Walthamstow_Central_station",
+   "https://londonist.com/london/transport/how-the-victoria-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Walthamstow Queen's Road",
+  "area": "Waltham Forest",
+  "head": "'Walthamstow' probably means the place of welcome.",
+  "text": "It was recorded in 1075 as Wilcumestowe. The station opened in 1894 as Walthamstow, and took its present name later.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Walthamstow",
+   "https://en.wikipedia.org/wiki/Walthamstow_Queen's_Road_railway_station"
+  ]
+ },
+ {
+  "station": "Wandsworth Road",
+  "area": "Lambeth",
+  "head": "'Wandsworth' means the enclosure of a man called Wændel.",
+  "text": "It is in the Domesday Book of 1086 as Wendelesorde. The River Wandle was later named after the town.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wandsworth",
+   "https://en.wikipedia.org/wiki/Wandsworth_Road_railway_station"
+  ]
+ },
+ {
+  "station": "Wanstead",
+  "area": "Redbridge",
+  "head": "'Wanstead' means a place, but nobody is sure what kind.",
+  "text": "It was first recorded in the 11th century as Wenstede. -stead means a place or site; the first part may mean a hill, or a wagon.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wanstead",
+   "https://en.wikipedia.org/wiki/Wanstead_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Wanstead Park",
+  "area": "Newham",
+  "head": "Named after the park of Wanstead House, a vast Palladian mansion.",
+  "text": "The house was one of the grandest in England, but it was pulled down in 1825 to pay its owner's debts. Its park survives.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wanstead_Park,_London",
+   "https://en.wikipedia.org/wiki/Wanstead_House",
+   "https://en.wikipedia.org/wiki/Wanstead_Park_railway_station"
+  ]
+ },
+ {
+  "station": "Wapping",
+  "area": "Tower Hamlets",
+  "head": "'Wapping' means the place of Wæppa's people.",
+  "text": "It was recorded in 1231. Pirates were hanged at Execution Dock in Wapping, among them Captain Kidd in 1701.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wapping",
+   "https://en.wikipedia.org/wiki/Wapping_railway_station"
+  ]
+ },
+ {
+  "station": "Warren Street",
+  "area": "Camden",
+  "head": "Named after Anne Warren, wife of the landowner Charles FitzRoy.",
+  "text": "FitzRoy, later Baron Southampton, developed the land in the late 18th century. The station opened in 1907 as Euston Road and was renamed a year later.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Warren_Street",
+   "https://en.wikipedia.org/wiki/Warren_Street_tube_station",
+   "https://londonist.com/london/transport/how-the-northern-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Warwick Avenue",
+  "area": "Westminster",
+  "head": "Named after Jane Warwick, wife of Sir John Frederick.",
+  "text": "They married in 1778; Frederick leased the land from the Bishop of London, and the avenue was named after her. The station opened in 1915.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Warwick_Avenue",
+   "https://en.wikipedia.org/wiki/Warwick_Avenue_tube_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Waterloo",
+  "area": "Lambeth",
+  "head": "Named after Waterloo Bridge, which commemorates the Battle of Waterloo.",
+  "text": "The bridge was being built when Wellington beat Napoleon in 1815. It was meant to be called Strand Bridge but opened in 1817 as Waterloo Bridge. The road and the station followed.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Waterloo_Bridge",
+   "https://en.wikipedia.org/wiki/Battle_of_Waterloo",
+   "https://en.wikipedia.org/wiki/Waterloo_tube_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Watford",
+  "area": "Watford",
+  "head": "'Watford' probably means the ford used for hunting, or the wet ford.",
+  "text": "The ford crossed the River Colne. The Metropolitan line station opened in 1925 in Cassiobury, a long walk from the town centre.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Watford",
+   "https://en.wikipedia.org/wiki/Watford_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Watford High Street",
+  "area": "Hertfordshire",
+  "head": "'Watford' probably means the ford used for hunting, or the wet ford.",
+  "text": "The ford crossed the River Colne. The station is just off the town's high street.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Watford",
+   "https://en.wikipedia.org/wiki/Watford_High_Street_railway_station"
+  ]
+ },
+ {
+  "station": "Watford Junction",
+  "area": "Hertfordshire",
+  "head": "'Watford' probably means the ford used for hunting, or the wet ford.",
+  "text": "The ford crossed the River Colne. The junction is where branch lines meet the main line from London to the north.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Watford",
+   "https://en.wikipedia.org/wiki/Watford_Junction_railway_station"
+  ]
+ },
+ {
+  "station": "Wembley Central",
+  "area": "Brent",
+  "head": "'Wembley' means the clearing of a Saxon called Wemba.",
+  "text": "It ends in Old English leah, a clearing. The station opened in 1842 as Sudbury, and became Wembley Central in 1948, the year Wembley hosted the Olympic Games.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wembley",
+   "https://en.wikipedia.org/wiki/Wembley_Central_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Wembley Park",
+  "area": "Brent",
+  "head": "'Wembley' means the clearing of a Saxon called Wemba.",
+  "text": "In the 1890s a tower meant to rival the Eiffel Tower was started here; it was never finished. Wembley Stadium was later built on its site.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wembley_Park",
+   "https://en.wikipedia.org/wiki/Wembley_Park_tube_station",
+   "https://londonist.com/london/transport/jubilee-stations-etymology"
+  ]
+ },
+ {
+  "station": "West Acton",
+  "area": "Ealing",
+  "head": "'Acton' means the farm by the oak trees.",
+  "text": "It comes from Old English āc, oak, and tūn, farm. West Acton station opened in 1923.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Acton,_London",
+   "https://en.wikipedia.org/wiki/West_Acton_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "West Brompton",
+  "area": "Kensington and Chelsea",
+  "head": "'Brompton' means the farm where broom grows.",
+  "text": "Broom is a yellow-flowered shrub. The station opened in 1869; Brompton Cemetery, one of London's 'Magnificent Seven' cemeteries, is next door.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_Brompton",
+   "https://en.wikipedia.org/wiki/West_Brompton_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "West Croydon",
+  "area": "Croydon",
+  "head": "'Croydon' means the valley where wild saffron grows.",
+  "text": "It comes from Old English croh, saffron, and denu, valley. West Croydon is the end of a branch of the Windrush line.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Croydon",
+   "https://en.wikipedia.org/wiki/West_Croydon_railway_station"
+  ]
+ },
+ {
+  "station": "West Drayton",
+  "area": "Hillingdon",
+  "head": "'Drayton' probably means a farm by a place where boats or loads were dragged.",
+  "text": "It was recorded in 939 as Drægtun, from Old English dræg, a dragging place. 'West' was added later.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_Drayton",
+   "https://en.wikipedia.org/wiki/West_Drayton_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "West Ealing",
+  "area": "Ealing",
+  "head": "'Ealing' means the people of a Saxon called Gilla.",
+  "text": "The name was first recorded around 700 as Gillingas. West Ealing grew up along the Uxbridge Road after the railway station opened.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ealing",
+   "https://en.wikipedia.org/wiki/West_Ealing_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "West Finchley",
+  "area": "Barnet",
+  "head": "'Finchley' probably means the clearing where finches live.",
+  "text": "It ends in Old English leah, a clearing in a wood. The Northern line has served West Finchley since 1940.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Finchley",
+   "https://en.wikipedia.org/wiki/West_Finchley_tube_station",
+   "https://londonist.com/london/transport/how-the-northern-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "West Ham",
+  "area": "Newham",
+  "head": "'Ham' means dry land in a river bend or between rivers.",
+  "text": "Here the land lies between the Thames, the Lea and the Roding. It was split into East Ham and West Ham in the 12th century. The football club West Ham United took its name from the area.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_Ham",
+   "https://en.wikipedia.org/wiki/West_Ham_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "West Hampstead",
+  "area": "Camden",
+  "head": "'Hampstead' simply means homestead.",
+  "text": "It comes from Old English hām-stede. West Hampstead grew in the late 19th century when three railway lines arrived. The station opened in 1879.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_Hampstead",
+   "https://en.wikipedia.org/wiki/West_Hampstead_tube_station",
+   "https://londonist.com/london/transport/jubilee-stations-etymology"
+  ]
+ },
+ {
+  "station": "West Harrow",
+  "area": "Harrow",
+  "head": "'Harrow' comes from Old English hearg, a heathen temple or shrine.",
+  "text": "The shrine probably stood on Harrow Hill, where St Mary's Church stands today. West Harrow station opened in 1913.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Harrow,_London",
+   "https://en.wikipedia.org/wiki/West_Harrow_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "West India Quay",
+  "area": "Tower Hamlets",
+  "head": "Named after the West India Docks, opened in 1802.",
+  "text": "They were built for ships bringing sugar, rum and coffee from the Caribbean, produced by enslaved people. Old warehouses on the quay now house the Museum of London Docklands.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_India_Docks",
+   "https://en.wikipedia.org/wiki/Museum_of_London_Docklands",
+   "https://en.wikipedia.org/wiki/West_India_Quay_DLR_station"
+  ]
+ },
+ {
+  "station": "West Kensington",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after Kensington, the farm of a Saxon called Cynesige.",
+  "text": "The station is actually in Fulham. It opened in 1874 as North End (Fulham) and was renamed West Kensington in 1877, probably because the name sounded more attractive.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/West_Kensington",
+   "https://en.wikipedia.org/wiki/West_Kensington_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "West Ruislip",
+  "area": "Hillingdon",
+  "head": "Named after Ruislip, the leaping place where rushes grow.",
+  "text": "It opened in 1906 as Ruislip & Ickenham. West Ruislip is the western end of the Central line.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruislip",
+   "https://en.wikipedia.org/wiki/West_Ruislip_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "West Silvertown",
+  "area": "Newham",
+  "head": "Named after Silvertown, which has nothing to do with silver.",
+  "text": "The area grew around the rubber and waterproof clothing works of S. W. Silver and Co., which moved here in 1852.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Silvertown",
+   "https://en.wikipedia.org/wiki/West_Silvertown_DLR_station",
+   "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Westbourne Park",
+  "area": "Westminster",
+  "head": "Named after the River Westbourne, the 'western stream'.",
+  "text": "The river rises in Hampstead and flows to the Thames, now hidden in pipes. In the Middle Ages the area was called Westbourne Green.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/River_Westbourne",
+   "https://en.wikipedia.org/wiki/Westbourne_Park_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Westferry",
+  "area": "Tower Hamlets",
+  "head": "Named after West Ferry Road, which led to an old ferry across the Thames.",
+  "text": "The road runs down the western side of the Isle of Dogs. The station opened with the first DLR line in 1987.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Isle_of_Dogs",
+   "https://en.wikipedia.org/wiki/Westferry_DLR_station"
+  ]
+ },
+ {
+  "station": "Westminster",
+  "area": "Westminster",
+  "head": "'Westminster' means the minster, or abbey church, to the west.",
+  "text": "It was west of the City of London. The abbey was founded in the 10th century and rebuilt by Edward the Confessor, and it gave its name to the whole area, including the Houses of Parliament.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Westminster_Abbey",
+   "https://en.wikipedia.org/wiki/Westminster",
+   "https://en.wikipedia.org/wiki/Westminster_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "White City",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after the white exhibition buildings of 1908.",
+  "text": "The Franco-British Exhibition was held here in 1908, with palaces covered in white. The stadium built at the same time hosted the 1908 Olympic Games.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/White_City,_London",
+   "https://en.wikipedia.org/wiki/White_City_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "White Hart Lane",
+  "area": "Haringey",
+  "head": "Named after White Hart Lane, after an inn called the White Hart.",
+  "text": "The white hart was the badge of King Richard II and a popular inn sign. Tottenham Hotspur's ground nearby was long known as White Hart Lane.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/White_Hart_Lane",
+   "https://en.wikipedia.org/wiki/White_Hart_Lane_railway_station"
+  ]
+ },
+ {
+  "station": "Whitechapel",
+  "area": "Tower Hamlets",
+  "head": "Named after a white chapel, the church of St Mary Matfelon.",
+  "text": "The chapel was built of white chalk stone in the 13th century, and its bright walls gave the area its name.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Whitechapel",
+   "https://en.wikipedia.org/wiki/Whitechapel_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Willesden Green",
+  "area": "Brent",
+  "head": "'Willesden' means the spring by the hill.",
+  "text": "It was first recorded in 939 as Willesdune. The spring has been lost. The station opened in 1879.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Willesden",
+   "https://en.wikipedia.org/wiki/Willesden_Green_tube_station",
+   "https://londonist.com/london/transport/jubilee-stations-etymology"
+  ]
+ },
+ {
+  "station": "Willesden Junction",
+  "area": "Brent",
+  "head": "Named after a large railway junction in Willesden.",
+  "text": "'Willesden' means the spring by the hill. Several railway lines meet and cross here. Bakerloo trains have called since 1915.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Willesden",
+   "https://en.wikipedia.org/wiki/Willesden_Junction_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Wimbledon",
+  "area": "Merton",
+  "head": "'Wimbledon' probably means the hill of a man called Wynnmann.",
+  "text": "It was recorded around 950 as Wunemannedune; 'dun' means a hill. Since 1877 the town has been home to the world's oldest tennis tournament.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wimbledon,_London",
+   "https://en.wikipedia.org/wiki/Wimbledon_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Wimbledon Park",
+  "area": "Merton",
+  "head": "Named after the park of Wimbledon House, a great estate.",
+  "text": "The grounds and lake were landscaped by Capability Brown in the 1760s. Part of the old park is now the home of the All England Lawn Tennis Club.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wimbledon_Park",
+   "https://en.wikipedia.org/wiki/Wimbledon_Park_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Wood Green",
+  "area": "Haringey",
+  "head": "'Wood Green' means the green by the woods.",
+  "text": "The village grew around an open space on the edge of the forest of Enfield Chase. The station opened in 1932.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wood_Green",
+   "https://en.wikipedia.org/wiki/Wood_Green_tube_station",
+   "https://londonist.com/london/transport/piccadilly-line-stations-etymology"
+  ]
+ },
+ {
+  "station": "Wood Lane",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after Wood Lane, called Turvens Lane until about 1830.",
+  "text": "It was renamed after the woods nearby. The station opened in 2008, next to the old BBC Television Centre.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Wood_Lane,_London",
+   "https://en.wikipedia.org/wiki/Wood_Lane_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Wood Street",
+  "area": "Waltham Forest",
+  "head": "Named after Wood Street in Walthamstow, on the way to Epping Forest.",
+  "text": "The street led out of the town towards the forest. The station opened in 1873.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Walthamstow",
+   "https://en.wikipedia.org/wiki/Wood_Street_railway_station"
+  ]
+ },
+ {
+  "station": "Woodford",
+  "area": "Redbridge",
+  "head": "'Woodford' means the ford by the wood.",
+  "text": "The ford crossed the River Roding, on the edge of Epping Forest. It was later replaced by a bridge, which gave its name to Woodford Bridge.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Woodford,_London",
+   "https://en.wikipedia.org/wiki/Woodford_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Woodgrange Park",
+  "area": "Newham",
+  "head": "Named after Woodgrange, a farm that once belonged to Stratford Langthorne Abbey.",
+  "text": "A grange was a monastery's farm. The houses were built in the late 19th century on the farmland.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Woodgrange_Park",
+   "https://en.wikipedia.org/wiki/Woodgrange_Park_railway_station"
+  ]
+ },
+ {
+  "station": "Woodside Park",
+  "area": "Barnet",
+  "head": "Named after Woodside House, built in 1840.",
+  "text": "A local developer took the name for his new housing estate, and the station followed. The Northern line arrived in 1940.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Woodside_Park",
+   "https://en.wikipedia.org/wiki/Woodside_Park_tube_station",
+   "https://londonist.com/london/transport/how-the-northern-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Woolwich",
+  "area": "Greenwich",
+  "head": "'Woolwich' means the trading place for wool.",
+  "text": "It comes from Old English wull, wool, and wīc, a trading place, and was recorded in the 10th century. Later Woolwich became famous for its Royal Arsenal and its naval dockyard.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Woolwich",
+   "https://en.wikipedia.org/wiki/Woolwich_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Woolwich Arsenal",
+  "area": "Greenwich",
+  "head": "Named after the Royal Arsenal, where weapons and ammunition were made for centuries.",
+  "text": "Workers at the Arsenal founded a football club in 1886, which became Arsenal and later moved to Highbury in north London.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Royal_Arsenal",
+   "https://en.wikipedia.org/wiki/Arsenal_F.C.",
+   "https://en.wikipedia.org/wiki/Woolwich_Arsenal_DLR_station"
+  ]
+ }
+]

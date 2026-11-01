@@ -60,10 +60,17 @@ TUBE_ORDER = list(NET["lines"])
 
 # ── Stations and stories ────────────────────────────────────────────────
 STORIES = {}
+OVERRIDES = {}
 for f in sorted(glob.glob(SP + "stories_*.py")):
-    for k, v in load(f).STORIES.items():
+    m = load(f)
+    for k, v in getattr(m, "STORIES", {}).items():
         assert k not in STORIES, ("duplicate story", k, f)
         STORIES[k] = v
+    OVERRIDES.update(getattr(m, "OVERRIDE", {}))
+for k, text in OVERRIDES.items():   # richer texts replace the first version (head and links stay)
+    assert k in STORIES, ("override for unknown station", k)
+    head, text = text if isinstance(text, tuple) else (STORIES[k][0], text)
+    STORIES[k] = (head, text, STORIES[k][2])
 LONDONIST = {"bakerloo": "https://londonist.com/london/transport/bakerloo_etymology",
  "central": "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names",
  "circle": "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names",

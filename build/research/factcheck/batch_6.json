@@ -1,0 +1,578 @@
+[
+ {
+  "station": "Park Royal",
+  "area": "Ealing",
+  "head": "Named after the Royal Agricultural Society's showground, opened here in 1903.",
+  "text": "The show only stayed for a few years, but the name remained. The area later became one of London's largest industrial estates.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Park_Royal",
+   "https://en.wikipedia.org/wiki/Park_Royal_tube_station",
+   "https://londonist.com/london/transport/piccadilly-line-stations-etymology"
+  ]
+ },
+ {
+  "station": "Parsons Green",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after the parsonage of Fulham, which stood beside the green.",
+  "text": "The village green still survives as a small park. Nearby is Fulham Palace, for many centuries the country home of the Bishops of London.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Parsons_Green",
+   "https://en.wikipedia.org/wiki/Parsons_Green_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Peckham Rye",
+  "area": "Southwark",
+  "head": "'Peckham' means the homestead by a hill; 'Rye' is an old word for a stream.",
+  "text": "Peckham Rye is the common beside the stream. As a boy, the poet William Blake said he saw a tree full of angels there.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Peckham",
+   "https://en.wikipedia.org/wiki/Peckham_Rye",
+   "https://en.wikipedia.org/wiki/Peckham_Rye_railway_station"
+  ]
+ },
+ {
+  "station": "Penge West",
+  "area": "Bromley",
+  "head": "'Penge' is a Celtic name meaning the end of the wood.",
+  "text": "It was recorded in 957 as Penceat, from the same British words as Welsh pen, head or end, and coed, wood. It is one of very few Celtic names in London.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Penge",
+   "https://en.wikipedia.org/wiki/Penge_West_railway_station"
+  ]
+ },
+ {
+  "station": "Perivale",
+  "area": "Ealing",
+  "head": "'Perivale' probably means the valley of pear trees.",
+  "text": "It was first recorded in the early 16th century as Pyryvale. The station opened in 1904 as Perivale Halt and joined the Central line in 1947.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Perivale",
+   "https://en.wikipedia.org/wiki/Perivale_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Piccadilly Circus",
+  "area": "Westminster",
+  "head": "Named after 'piccadills', stiff lace collars fashionable around 1600.",
+  "text": "A tailor, Robert Baker, made his fortune selling them and built a house here, nicknamed Pickadilly Hall. The name spread to the street and the circus, a round junction of roads.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Piccadilly_Circus",
+   "https://en.wikipedia.org/wiki/Piccadilly",
+   "https://en.wikipedia.org/wiki/Piccadilly_Circus_tube_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Pimlico",
+  "area": "Westminster",
+  "head": "Nobody knows for sure where the name 'Pimlico' comes from.",
+  "text": "One popular theory links it to Ben Pimlico, an innkeeper famous for his ale, but his tavern was in Hoxton, on the other side of London. The station opened with the Victoria line in 1972.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pimlico",
+   "https://en.wikipedia.org/wiki/Pimlico_tube_station",
+   "https://londonist.com/london/transport/how-the-victoria-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Pinner",
+  "area": "Harrow",
+  "head": "'Pinner' probably means the pin-shaped hill, or the hill of a man called Pinn.",
+  "text": "It ends in Old English ora, a slope or hill; the River Pinn was later named after the village. Pinner Fair has been held every year since a charter of 1336.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pinner",
+   "https://en.wikipedia.org/wiki/Pinner_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Plaistow",
+  "area": "Newham",
+  "head": "'Plaistow' probably means a place for play or sport.",
+  "text": "It may come from Old English plega, play, and stōw, place, perhaps where games or miracle plays were held. Others link it to Sir Hugh de Plaiz, a medieval landowner. Locals say 'Plar-stow'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Plaistow,_Newham",
+   "https://en.wikipedia.org/wiki/Plaistow_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Pontoon Dock",
+  "area": "Newham",
+  "head": "Named after a dock where ships were lifted on floating pontoons for repair.",
+  "text": "Hydraulic jacks raised the ships out of the water at the Royal Victoria Dock. The Thames Barrier and its park are close by.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Royal_Victoria_Dock",
+   "https://en.wikipedia.org/wiki/Pontoon_Dock_DLR_station",
+   "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Poplar",
+  "area": "Tower Hamlets",
+  "head": "'Poplar' means the place where poplar trees grow.",
+  "text": "It was recorded in 1327 as Popler. The trees grew well on the damp ground by the Thames.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Poplar,_London",
+   "https://en.wikipedia.org/wiki/Poplar_DLR_station"
+  ]
+ },
+ {
+  "station": "Preston Road",
+  "area": "Brent",
+  "head": "'Preston' means the priests' farm.",
+  "text": "It comes from Old English prēost, priest, and tūn, farm. The station opened in 1908 for visitors to the Olympic clay pigeon shooting nearby.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Preston,_London",
+   "https://en.wikipedia.org/wiki/Preston_Road_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Prince Regent",
+  "area": "Newham",
+  "head": "Named after Prince Regent Lane, which honours the future George IV.",
+  "text": "He became Prince Regent in 1811, when his father George III was too ill to rule. The lane is older than the docks.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/George_IV",
+   "https://en.wikipedia.org/wiki/Prince_Regent_DLR_station",
+   "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Pudding Mill Lane",
+  "area": "Newham",
+  "head": "Named after the lane, which took its name from a watermill on the River Lea.",
+  "text": "The mill is said to have been nicknamed Pudding Mill because of its round shape. The station is next to the Olympic Park of 2012.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Pudding_Mill_Lane_DLR_station"
+  ]
+ },
+ {
+  "station": "Putney Bridge",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after Putney Bridge, the crossing to Putney on the other bank.",
+  "text": "'Putney' means the landing place of a man called Putta. The station is actually on the Fulham side of the Thames. The Oxford and Cambridge Boat Race starts near the bridge.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Putney_Bridge",
+   "https://en.wikipedia.org/wiki/Putney_Bridge_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Queen's Park",
+  "area": "Brent",
+  "head": "Named after Queen Victoria, who was on the throne when the area was built.",
+  "text": "The park and housing estate date from the late 19th century. Bakerloo trains have called here since 1915.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queen's_Park,_London",
+   "https://en.wikipedia.org/wiki/Queen's_Park_(London)_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Queens Road Peckham",
+  "area": "Southwark",
+  "head": "Named after Queen's Road in Peckham, the homestead by a hill.",
+  "text": "Peckham comes from Old English pēac, a hill or peak, and hām, homestead. The station opened in 1866.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Peckham",
+   "https://en.wikipedia.org/wiki/Queens_Road_Peckham_railway_station"
+  ]
+ },
+ {
+  "station": "Queensbury",
+  "area": "Brent",
+  "head": "An invented name, chosen in the 1930s as a play on neighbouring Kingsbury.",
+  "text": "Local people were asked for ideas, and Queensbury won. The name has no historical background. The station opened in 1934.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queensbury,_London",
+   "https://en.wikipedia.org/wiki/Queensbury_tube_station",
+   "https://londonist.com/london/transport/jubilee-stations-etymology"
+  ]
+ },
+ {
+  "station": "Queensway",
+  "area": "Westminster",
+  "head": "Named in honour of Queen Victoria.",
+  "text": "She is said to have ridden along the lane as a girl, when she lived at Kensington Palace nearby. The road was called Queen's Road, and so was the station until 1946.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Queensway,_London",
+   "https://en.wikipedia.org/wiki/Queensway_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Ravenscourt Park",
+  "area": "Hammersmith and Fulham",
+  "head": "A pun on a family name: a raven is 'corbeau' in French.",
+  "text": "In the 18th century the owner, Thomas Corbett, renamed his house Ravenscourt; ravens were on his coat of arms. The grounds became a public park. The station opened in 1877 as Shaftesbury Road.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ravenscourt_Park",
+   "https://en.wikipedia.org/wiki/Ravenscourt_Park_tube_station",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Rayners Lane",
+  "area": "Harrow",
+  "head": "Said to be named after Daniel Rayner, a local farmer.",
+  "text": "When the railway arrived in 1904 the area was almost empty; the station opened in 1906, and houses only followed in the 1930s.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rayners_Lane",
+   "https://en.wikipedia.org/wiki/Rayners_Lane_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Reading",
+  "area": "Berkshire",
+  "head": "'Reading' means the people of a man called Reada.",
+  "text": "It was recorded around 900 as Readingum. Henry I founded Reading Abbey in 1121 and was buried there; its ruins can still be seen near the station.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Reading,_Berkshire",
+   "https://en.wikipedia.org/wiki/Reading_Abbey",
+   "https://en.wikipedia.org/wiki/Reading_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Rectory Road",
+  "area": "Hackney",
+  "head": "Probably named after the rectory of St Mary's Church, Stoke Newington.",
+  "text": "The road ran through land belonging to the church. Stoke Newington means the new farm by the tree stumps.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Stoke_Newington",
+   "https://en.wikipedia.org/wiki/Rectory_Road_railway_station"
+  ]
+ },
+ {
+  "station": "Redbridge",
+  "area": "Redbridge",
+  "head": "Named after a red brick bridge over the River Roding.",
+  "text": "The bridge was recorded from the 17th century and demolished in 1922. The station, opened in 1947, had the name before the London Borough of Redbridge, created in 1965.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Redbridge,_London",
+   "https://en.wikipedia.org/wiki/Redbridge_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Regent's Park",
+  "area": "Westminster",
+  "head": "Named after the Prince Regent, later King George IV.",
+  "text": "The park was laid out by John Nash in the early 19th century on what had been Henry VIII's hunting ground. Regent Street was built at the same time.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Regent's_Park",
+   "https://en.wikipedia.org/wiki/Regent's_Park_tube_station",
+   "https://londonist.com/london/transport/bakerloo_etymology"
+  ]
+ },
+ {
+  "station": "Richmond",
+  "area": "Richmond",
+  "head": "Named after Richmond in Yorkshire, through Henry VII.",
+  "text": "Henry was Earl of Richmond before he became king. Around 1500 he rebuilt the royal palace at Sheen and named it after his earldom. 'Richmond' is French for 'strong hill'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Richmond,_London",
+   "https://en.wikipedia.org/wiki/Richmond_station_(London)",
+   "https://londonist.com/london/transport/district-line-station-names"
+  ]
+ },
+ {
+  "station": "Rickmansworth",
+  "area": "Hertfordshire",
+  "head": "'Rickmansworth' means the enclosure of a man called Ricmær.",
+  "text": "-worth is an Old English word for an enclosure or farm. The Domesday Book of 1086 records it as Prichemareworde.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rickmansworth",
+   "https://en.wikipedia.org/wiki/Rickmansworth_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Roding Valley",
+  "area": "Epping Forest",
+  "head": "Named after the River Roding, which flows through the valley.",
+  "text": "The river takes its name from the Rodings, villages of the people of a Saxon leader called Hroda.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/River_Roding",
+   "https://en.wikipedia.org/wiki/Roding_Valley_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Romford",
+  "area": "Havering",
+  "head": "'Romford' means the wide ford.",
+  "text": "It comes from Old English rūm, roomy or wide. The River Rom was named after the town much later, not the other way round. Romford has held a market since the 13th century.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Romford",
+   "https://en.wikipedia.org/wiki/Romford_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Rotherhithe",
+  "area": "Southwark",
+  "head": "'Rotherhithe' means the landing place for cattle.",
+  "text": "It comes from Old English hrȳther, cattle, and hȳth, a landing place. The Mayflower sailed from here in 1620. The trains use Brunel's Thames Tunnel of 1843, the first tunnel under a navigable river.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Rotherhithe",
+   "https://en.wikipedia.org/wiki/Thames_Tunnel",
+   "https://en.wikipedia.org/wiki/Rotherhithe_railway_station"
+  ]
+ },
+ {
+  "station": "Royal Albert",
+  "area": "Newham",
+  "head": "Named after the Royal Albert Dock, which honours Prince Albert, husband of Queen Victoria.",
+  "text": "The dock opened in 1880 and was the second of the three Royal Docks. Its warehouses handled chilled meat, bananas and tobacco.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Royal_Albert_Dock,_London",
+   "https://en.wikipedia.org/wiki/Royal_Albert_DLR_station",
+   "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Royal Oak",
+  "area": "Westminster",
+  "head": "Named after a pub called the Royal Oak.",
+  "text": "The pub name recalls the oak tree at Boscobel in Shropshire where the future Charles II hid from Parliament's soldiers in 1651. The station opened in 1871.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Royal_Oak",
+   "https://en.wikipedia.org/wiki/Royal_Oak_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Royal Victoria",
+  "area": "Newham",
+  "head": "Named after the Royal Victoria Dock, which honours Queen Victoria.",
+  "text": "It opened in 1855 on marshland, the first of the three Royal Docks, and was built for large steamships with direct railway connections.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Royal_Victoria_Dock",
+   "https://en.wikipedia.org/wiki/Royal_Victoria_DLR_station",
+   "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Ruislip",
+  "area": "Hillingdon",
+  "head": "'Ruislip' means the leaping place where rushes grow.",
+  "text": "It comes from Old English rysc, rush, and hlȳp, a leap: probably a narrow spot on the River Pinn that could be jumped across. The station opened in 1904.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruislip",
+   "https://en.wikipedia.org/wiki/Ruislip_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Ruislip Gardens",
+  "area": "Hillingdon",
+  "head": "Named after Ruislip, the leaping place where rushes grow.",
+  "text": "The leap was probably a narrow crossing on the River Pinn. 'Gardens' was used for new suburban housing. The station opened on the Central line in 1948.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruislip",
+   "https://en.wikipedia.org/wiki/Ruislip_Gardens_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Ruislip Manor",
+  "area": "Hillingdon",
+  "head": "Named after a housing estate built on land of the old manor of Ruislip.",
+  "text": "Ruislip means the leaping place where rushes grow. The station opened as a halt in 1912, long before most of the houses.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ruislip_Manor",
+   "https://en.wikipedia.org/wiki/Ruislip_Manor_tube_station",
+   "https://londonist.com/london/transport/metropolitan-line-stations-names-etymology"
+  ]
+ },
+ {
+  "station": "Russell Square",
+  "area": "Camden",
+  "head": "Named after the Russell family, the Dukes of Bedford.",
+  "text": "They owned much of Bloomsbury and laid out the square around 1800. Its gardens were designed by Humphry Repton. The British Museum is just round the corner.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Russell_Square",
+   "https://en.wikipedia.org/wiki/Russell_Square_tube_station",
+   "https://londonist.com/london/transport/piccadilly-line-stations-etymology"
+  ]
+ },
+ {
+  "station": "Seven Kings",
+  "area": "Redbridge",
+  "head": "Despite the legend, there were no seven kings.",
+  "text": "A popular story says seven Saxon kings watered their horses here. The name more probably comes from the people of a man called Seofeca.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seven_Kings",
+   "https://en.wikipedia.org/wiki/Seven_Kings_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Seven Sisters",
+  "area": "Haringey",
+  "head": "Named after a ring of seven trees on Page Green.",
+  "text": "By local tradition they were planted by seven sisters. The first trees were elms; the ring has been replanted several times, most recently with hornbeams in 1996.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Seven_Sisters,_London",
+   "https://en.wikipedia.org/wiki/Seven_Sisters_station",
+   "https://londonist.com/london/transport/how-the-victoria-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Shadwell",
+  "area": "Tower Hamlets",
+  "head": "'Shadwell' means the shallow spring.",
+  "text": "It comes from Old English sceald, shallow, and wella, a spring or stream. The DLR and the Overground each have a station here.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shadwell",
+   "https://en.wikipedia.org/wiki/Shadwell_railway_station"
+  ]
+ },
+ {
+  "station": "Shenfield",
+  "area": "Essex",
+  "head": "'Shenfield' probably means the beautiful open land.",
+  "text": "It comes from Old English scēne, bright or beautiful, and feld, open country. It is in the Domesday Book of 1086 as Scenefelda. The station is the eastern end of the Elizabeth line.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shenfield",
+   "https://en.wikipedia.org/wiki/Shenfield_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Shepherd's Bush",
+  "area": "Hammersmith and Fulham",
+  "head": "Nobody really knows where 'Shepherd's Bush' comes from.",
+  "text": "One idea is that shepherds rested their flocks here on the way to Smithfield market in the City. Another is that it recalls a local man called Shepherd or Sheppard.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shepherd's_Bush",
+   "https://en.wikipedia.org/wiki/Shepherd's_Bush_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Shepherd's Bush Market",
+  "area": "Hammersmith and Fulham",
+  "head": "Named after the street market beside the railway, in Shepherd's Bush.",
+  "text": "The station was called Shepherd's Bush until 2008, when it was renamed to avoid confusion with the Central line station. Nobody knows for sure where 'Shepherd's Bush' comes from.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shepherd's_Bush_Market",
+   "https://en.wikipedia.org/wiki/Shepherd's_Bush_Market_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Shoreditch High Street",
+  "area": "Tower Hamlets",
+  "head": "'Shoreditch' means the ditch by the slope.",
+  "text": "It comes from Old English scora, a bank or slope, and dīc, ditch. A legend links it to Jane Shore, mistress of Edward IV, but that is a later invention.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Shoreditch",
+   "https://en.wikipedia.org/wiki/Shoreditch_High_Street_railway_station"
+  ]
+ },
+ {
+  "station": "Silver Street",
+  "area": "Enfield",
+  "head": "Named after Silver Street, an old road in Edmonton.",
+  "text": "Silver Street is a common old street name; its origin is uncertain. The station opened in 1872.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Edmonton,_London",
+   "https://en.wikipedia.org/wiki/Silver_Street_railway_station"
+  ]
+ },
+ {
+  "station": "Sloane Square",
+  "area": "Kensington and Chelsea",
+  "head": "Named after Sir Hans Sloane, physician and collector.",
+  "text": "He bought the manor of Chelsea in 1712. His huge collection of books, plants and curiosities became the start of the British Museum after his death in 1753.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Hans_Sloane",
+   "https://en.wikipedia.org/wiki/Sloane_Square_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Slough",
+  "area": "Berkshire",
+  "head": "'Slough' means a muddy place, a miry marsh.",
+  "text": "It comes from Old English slōh. The astronomer William Herschel lived here from 1786 and built his great telescope in his garden.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Slough",
+   "https://en.wikipedia.org/wiki/William_Herschel",
+   "https://en.wikipedia.org/wiki/Slough_railway_station",
+   "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "Snaresbrook",
+  "area": "Redbridge",
+  "head": "Nobody knows for sure where 'Snaresbrook' comes from.",
+  "text": "It may be a changed form of 'Sayers Brook', a small stream flowing into the River Roding. The station opened in 1856 as Snaresbrook & Wanstead.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Snaresbrook",
+   "https://en.wikipedia.org/wiki/Snaresbrook_tube_station",
+   "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names"
+  ]
+ },
+ {
+  "station": "South Acton",
+  "area": "Ealing",
+  "head": "'Acton' means the farm by the oak trees.",
+  "text": "It comes from Old English āc, oak, and tūn, farm. South Acton grew as an industrial area with many laundries, nicknamed 'Soapsud Island'.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Acton,_London",
+   "https://en.wikipedia.org/wiki/South_Acton_railway_station"
+  ]
+ },
+ {
+  "station": "South Ealing",
+  "area": "Ealing",
+  "head": "'Ealing' means the people of a Saxon called Gilla.",
+  "text": "The name was first recorded around 700 as Gillingas. South Ealing station opened in 1883.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/Ealing",
+   "https://en.wikipedia.org/wiki/South_Ealing_tube_station",
+   "https://londonist.com/london/transport/piccadilly-line-stations-etymology"
+  ]
+ },
+ {
+  "station": "South Hampstead",
+  "area": "Camden",
+  "head": "'Hampstead' simply means homestead.",
+  "text": "It comes from Old English hām-stede. The station opened in 1879 as Loudoun Road and was renamed South Hampstead in 1922.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/South_Hampstead",
+   "https://en.wikipedia.org/wiki/South_Hampstead_railway_station"
+  ]
+ },
+ {
+  "station": "South Harrow",
+  "area": "Harrow",
+  "head": "'Harrow' comes from Old English hearg, a heathen temple or shrine.",
+  "text": "Before the houses were built, this area was fields and the old hamlet of Roxeth. The station opened in 1903.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/South_Harrow",
+   "https://en.wikipedia.org/wiki/South_Harrow_tube_station",
+   "https://londonist.com/london/transport/piccadilly-line-stations-etymology"
+  ]
+ },
+ {
+  "station": "South Kensington",
+  "area": "Kensington and Chelsea",
+  "head": "Named after Kensington, the farm of a Saxon called Cynesige.",
+  "text": "The area grew after the Great Exhibition of 1851, whose profits paid for the museums and colleges here. A long tunnel leads from the station to the museums.",
+  "sources": [
+   "https://en.wikipedia.org/wiki/South_Kensington",
+   "https://en.wikipedia.org/wiki/Kensington",
+   "https://en.wikipedia.org/wiki/South_Kensington_tube_station",
+   "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names"
+  ]
+ }
+]
