@@ -27,4 +27,5 @@ async def main():
             await pg.screenshot(path=f"{OUTD}/{name}.png", full_page="full" in name)
         print("errors:", errs)
         await b.close()
-asyncio.run(main())
+if __name__ == "__main__":
+    asyncio.run(main())
