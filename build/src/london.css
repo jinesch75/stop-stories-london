@@ -10,8 +10,11 @@
 .lineno[hidden]{display:none}
 
 /* home: the eleven lines as named rows with a colour bar */
-.tube-card .tube-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:2px 14px 16px}
-.tube-card .tube-grid[hidden]{display:none}
+.tube-groups{padding:0 14px 16px}
+.tube-groups[hidden]{display:none}
+.tube-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.mode-label{font-family:var(--f-mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:14px 2px 8px}
+.tube-groups .mode-label:first-child{margin-top:2px}
 .tube-card .lines-toggle{font-size:17px}
 .tube-card .lines-toggle .chev{color:var(--muted)}
 .tube-tile{display:flex;align-items:center;gap:10px;min-height:48px;padding:6px 10px 6px 0;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);cursor:pointer;text-align:left;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.08),0 4px 10px rgba(13,60,55,.12);transition:transform .12s,border-color .12s}

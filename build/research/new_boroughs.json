@@ -1,0 +1,747 @@
+{
+ "Abbey Wood": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "Acton Main Line": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Burnham": {
+  "district": "Slough",
+  "county": "",
+  "region": "South East"
+ },
+ "Brentwood": {
+  "district": "Brentwood",
+  "county": "Essex",
+  "region": "East of England"
+ },
+ "Chadwell Heath": {
+  "district": "Redbridge",
+  "county": "",
+  "region": "London"
+ },
+ "Custom House": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Forest Gate": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Gidea Park": {
+  "district": "Havering",
+  "county": "",
+  "region": "London"
+ },
+ "Goodmayes": {
+  "district": "Redbridge",
+  "county": "",
+  "region": "London"
+ },
+ "Hanwell": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Hayes & Harlington": {
+  "district": "Hillingdon",
+  "county": "",
+  "region": "London"
+ },
+ "Harold Wood": {
+  "district": "Havering",
+  "county": "",
+  "region": "London"
+ },
+ "Ilford": {
+  "district": "Redbridge",
+  "county": "",
+  "region": "London"
+ },
+ "Iver": {
+  "district": "Buckinghamshire",
+  "county": "",
+  "region": "South East"
+ },
+ "Langley": {
+  "district": "Slough",
+  "county": "",
+  "region": "South East"
+ },
+ "Manor Park": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Maidenhead": {
+  "district": "Windsor and Maidenhead",
+  "county": "",
+  "region": "South East"
+ },
+ "Maryland": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Reading": {
+  "district": "Reading",
+  "county": "",
+  "region": "South East"
+ },
+ "Romford": {
+  "district": "Havering",
+  "county": "",
+  "region": "London"
+ },
+ "Shenfield": {
+  "district": "Brentwood",
+  "county": "Essex",
+  "region": "East of England"
+ },
+ "Slough": {
+  "district": "Slough",
+  "county": "",
+  "region": "South East"
+ },
+ "Southall": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Seven Kings": {
+  "district": "Redbridge",
+  "county": "",
+  "region": "London"
+ },
+ "Taplow": {
+  "district": "Buckinghamshire",
+  "county": "",
+  "region": "South East"
+ },
+ "Twyford": {
+  "district": "Wokingham",
+  "county": "",
+  "region": "South East"
+ },
+ "West Drayton": {
+  "district": "Hillingdon",
+  "county": "",
+  "region": "London"
+ },
+ "West Ealing": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Woolwich": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "Emerson Park": {
+  "district": "Havering",
+  "county": "",
+  "region": "London"
+ },
+ "Bushey": {
+  "district": "Watford",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Carpenders Park": {
+  "district": "Three Rivers",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Headstone Lane": {
+  "district": "Harrow",
+  "county": "",
+  "region": "London"
+ },
+ "Hatch End": {
+  "district": "Harrow",
+  "county": "",
+  "region": "London"
+ },
+ "Kilburn High Road": {
+  "district": "Brent",
+  "county": "",
+  "region": "London"
+ },
+ "South Hampstead": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "Watford High Street": {
+  "district": "Watford",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Watford Junction": {
+  "district": "Watford",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Acton Central": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Brondesbury": {
+  "district": "Brent",
+  "county": "",
+  "region": "London"
+ },
+ "Brondesbury Park": {
+  "district": "Brent",
+  "county": "",
+  "region": "London"
+ },
+ "Caledonian Road & Barnsbury": {
+  "district": "Islington",
+  "county": "",
+  "region": "London"
+ },
+ "Clapham Junction": {
+  "district": "Wandsworth",
+  "county": "",
+  "region": "London"
+ },
+ "Camden Road": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "Canonbury": {
+  "district": "Islington",
+  "county": "",
+  "region": "London"
+ },
+ "Imperial Wharf": {
+  "district": "Hammersmith and Fulham",
+  "county": "",
+  "region": "London"
+ },
+ "Dalston Kingsland": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Finchley Road & Frognal": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "Gospel Oak": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "Hackney Central": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Hackney Wick": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Hampstead Heath": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "Homerton": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Kensal Rise": {
+  "district": "Brent",
+  "county": "",
+  "region": "London"
+ },
+ "Kentish Town West": {
+  "district": "Camden",
+  "county": "",
+  "region": "London"
+ },
+ "South Acton": {
+  "district": "Ealing",
+  "county": "",
+  "region": "London"
+ },
+ "Barking Riverside": {
+  "district": "Barking and Dagenham",
+  "county": "",
+  "region": "London"
+ },
+ "Crouch Hill": {
+  "district": "Islington",
+  "county": "",
+  "region": "London"
+ },
+ "Harringay Green Lanes": {
+  "district": "Haringey",
+  "county": "",
+  "region": "London"
+ },
+ "Leyton Midland Road": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "Leytonstone High Road": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "South Tottenham": {
+  "district": "Haringey",
+  "county": "",
+  "region": "London"
+ },
+ "Upper Holloway": {
+  "district": "Islington",
+  "county": "",
+  "region": "London"
+ },
+ "Woodgrange Park": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Walthamstow Queen's Road": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "Wanstead Park": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Bush Hill Park": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "Bruce Grove": {
+  "district": "Haringey",
+  "county": "",
+  "region": "London"
+ },
+ "Cambridge Heath": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Cheshunt": {
+  "district": "Broxbourne",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Chingford": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "Clapton": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Edmonton Green": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "Enfield Town": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "Hackney Downs": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Highams Park": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "London Fields": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Rectory Road": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Southbury": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "Silver Street": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "St James Street": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "Stoke Newington": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Stamford Hill": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Theobalds Grove": {
+  "district": "Broxbourne",
+  "county": "Hertfordshire",
+  "region": "East of England"
+ },
+ "Turkey Street": {
+  "district": "Enfield",
+  "county": "",
+  "region": "London"
+ },
+ "Wood Street": {
+  "district": "Waltham Forest",
+  "county": "",
+  "region": "London"
+ },
+ "White Hart Lane": {
+  "district": "Haringey",
+  "county": "",
+  "region": "London"
+ },
+ "Anerley": {
+  "district": "Bromley",
+  "county": "",
+  "region": "London"
+ },
+ "Brockley": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Clapham High Street": {
+  "district": "Lambeth",
+  "county": "",
+  "region": "London"
+ },
+ "Crystal Palace": {
+  "district": "Bromley",
+  "county": "",
+  "region": "London"
+ },
+ "Dalston Junction": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Denmark Hill": {
+  "district": "Southwark",
+  "county": "",
+  "region": "London"
+ },
+ "Forest Hill": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Haggerston": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "Honor Oak Park": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Hoxton": {
+  "district": "Hackney",
+  "county": "",
+  "region": "London"
+ },
+ "New Cross Gate": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Norwood Junction": {
+  "district": "Croydon",
+  "county": "",
+  "region": "London"
+ },
+ "New Cross": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Queens Road Peckham": {
+  "district": "Southwark",
+  "county": "",
+  "region": "London"
+ },
+ "Peckham Rye": {
+  "district": "Southwark",
+  "county": "",
+  "region": "London"
+ },
+ "Penge West": {
+  "district": "Bromley",
+  "county": "",
+  "region": "London"
+ },
+ "Rotherhithe": {
+  "district": "Southwark",
+  "county": "",
+  "region": "London"
+ },
+ "Shadwell": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Shoreditch High Street": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Surrey Quays": {
+  "district": "Southwark",
+  "county": "",
+  "region": "London"
+ },
+ "Sydenham": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Wapping": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "West Croydon": {
+  "district": "Croydon",
+  "county": "",
+  "region": "London"
+ },
+ "Wandsworth Road": {
+  "district": "Lambeth",
+  "county": "",
+  "region": "London"
+ },
+ "Abbey Road": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "All Saints": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Beckton": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Blackwall": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Bow Church": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Beckton Park": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Crossharbour": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Cutty Sark": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "Cyprus": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Deptford Bridge": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Devons Road": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "East India": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Elverson Road": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "Gallions Reach": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Greenwich": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "Heron Quays": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Island Gardens": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "King George V": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "London City Airport": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Langdon Park": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Lewisham": {
+  "district": "Lewisham",
+  "county": "",
+  "region": "London"
+ },
+ "Limehouse": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Mudchute": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Pontoon Dock": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Poplar": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Prince Regent": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Pudding Mill Lane": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Royal Albert": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Royal Victoria": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Stratford High Street": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Stratford International": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "South Quay": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Star Lane": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ },
+ "Tower Gateway": {
+  "district": "City of London",
+  "county": "",
+  "region": "London"
+ },
+ "Westferry": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "West India Quay": {
+  "district": "Tower Hamlets",
+  "county": "",
+  "region": "London"
+ },
+ "Woolwich Arsenal": {
+  "district": "Greenwich",
+  "county": "",
+  "region": "London"
+ },
+ "West Silvertown": {
+  "district": "Newham",
+  "county": "",
+  "region": "London"
+ }
+}

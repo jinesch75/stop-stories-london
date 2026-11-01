@@ -1,37 +1,42 @@
 """TfL Unified API (Route/Sequence + StopPoints, downloaded into tfl/) -> network.json:
-lines -> branch routes (ordered station keys) + stations (name, zone, lat/lon, naptan ids)."""
+lines (with mode) -> branch routes (ordered station keys) + stations (name, zone, coordinates of every
+platform/station with that name, naptan ids). Stations with the same public name on different lines or
+modes share one entry (and one story); they keep all their coordinates for "near me"."""
 import json, os, re, html
 SP = os.path.dirname(os.path.abspath(__file__)) + "/"
-LINES = [("bakerloo","Bakerloo","#B36305"),("central","Central","#E32017"),("circle","Circle","#FFD300"),
- ("district","District","#00782A"),("hammersmith-city","Hammersmith & City","#F3A9BB"),("jubilee","Jubilee","#A0A5A9"),
- ("metropolitan","Metropolitan","#9B0056"),("northern","Northern","#000000"),("piccadilly","Piccadilly","#003688"),
- ("victoria","Victoria","#0098D4"),("waterloo-city","Waterloo & City","#95CDBA")]
-CODE = {"bakerloo":"bak","central":"cen","circle":"cir","district":"dis","hammersmith-city":"ham","jubilee":"jub",
- "metropolitan":"met","northern":"nor","piccadilly":"pic","victoria":"vic","waterloo-city":"wac"}
+# id, display name, colour, mode, short code
+LINES = [
+ ("bakerloo","Bakerloo","#B36305","tube","bak"),("central","Central","#E32017","tube","cen"),("circle","Circle","#FFD300","tube","cir"),
+ ("district","District","#00782A","tube","dis"),("hammersmith-city","Hammersmith & City","#F3A9BB","tube","ham"),("jubilee","Jubilee","#A0A5A9","tube","jub"),
+ ("metropolitan","Metropolitan","#9B0056","tube","met"),("northern","Northern","#000000","tube","nor"),("piccadilly","Piccadilly","#003688","tube","pic"),
+ ("victoria","Victoria","#0098D4","tube","vic"),("waterloo-city","Waterloo & City","#95CDBA","tube","wac"),
+ ("elizabeth","Elizabeth","#6950A1","elizabeth","eli"),
+ ("liberty","Liberty","#676767","overground","lib"),("lioness","Lioness","#F1B41C","overground","lio"),("mildmay","Mildmay","#437EC1","overground","mil"),
+ ("suffragette","Suffragette","#39B97A","overground","suf"),("weaver","Weaver","#972861","overground","wea"),("windrush","Windrush","#EF4D5E","overground","win"),
+ ("dlr","DLR","#00A4A7","dlr","dlr")]
+RENAME = {"Euston": "Euston", "London Euston": "Euston", "London Liverpool Street": "Liverpool Street", "London Paddington": "Paddington",
+          "New Cross ELL": "New Cross", "Custom House (for ExCel)": "Custom House", "Cutty Sark (for Maritime Greenwich)": "Cutty Sark",
+          "Shepherds Bush": "Shepherd's Bush", "Queens Park": "Queen's Park", "Walthamstow Queens Road": "Walthamstow Queen's Road",
+          "St. Paul's": "St Paul's", "King's Cross St. Pancras": "King's Cross St Pancras", "St. James's Park": "St James's Park",
+          "St. John's Wood": "St John's Wood"}
 def clean(n):
     n = html.unescape(n)
-    n = re.sub(r"\s+Underground Station$", "", n)
+    n = re.sub(r"\s+(Underground|Rail|DLR) Station$", "", n)
     n = re.sub(r"\s*-\s*Underground$", "", n)
     n = re.sub(r"\s*\((?:[A-Za-z &-]+ lines?|Bakerloo|Circle Line|Dist&Picc Line|H&C Line|Central|Northern|Picc|Met)\)$", "", n, flags=re.I)
     n = re.sub(r"\s*\((?:H&C|Dist&Picc|Circle|Bakerloo)(?: Line)?\)$", "", n, flags=re.I)
-    n = re.sub(r"\s*-\s*Underground$", "", n)
-    return n.strip()
-def is_sub(a, b):
-    """True if list a appears as a contiguous run in b (or in reversed b)."""
-    for B in (b, b[::-1]):
-        for i in range(len(B) - len(a) + 1):
-            if B[i:i+len(a)] == a: return True
-    return False
+    n = re.sub(r"\s*\((?:London|Berks)\)$", "", n)
+    return RENAME.get(n.strip(), n.strip())
 stations, out = {}, {}
-raw_names = {}
-for lid, lname, col in LINES:
+for lid, lname, col, mode, code in LINES:
+    id2k = {}
     for sp in json.load(open(SP + f"tfl/{lid}-stops.json")):
         zone = next((p["value"] for p in sp.get("additionalProperties", []) if p["key"] == "Zone"), "")
-        raw_names[sp["id"]] = sp["commonName"]
-        k = clean(sp["commonName"])
-        st = stations.setdefault(k, {"name": k, "zone": zone, "ll": [round(sp["lat"], 6), round(sp["lon"], 6)], "ids": []})
+        k = clean(sp["commonName"]); id2k[sp["id"]] = k
+        st = stations.setdefault(k, {"name": k, "zone": zone.replace("+", "/"), "ll": [], "ids": []})
+        p = [round(sp["lat"], 6), round(sp["lon"], 6)]
+        if all(abs(p[0] - q[0]) + abs(p[1] - q[1]) > 0.002 for q in st["ll"]): st["ll"].append(p)   # keep distinct locations only
         if sp["id"] not in st["ids"]: st["ids"].append(sp["id"])
-    id2k = {i: k for k, s in stations.items() for i in s["ids"]}
     routes = []
     for d in ("out", "in"):
         for r in json.load(open(SP + f"tfl/{lid}-{d}.json"))["orderedLineRoutes"]:
@@ -40,14 +45,10 @@ for lid, lname, col in LINES:
             # keep a route only if no other route already covers all its stations (drops fast trains and short workings)
             if not any(set(seq) <= set(x) for x in routes):
                 routes = [x for x in routes if not set(x) <= set(seq)] + [seq]
-    out[lid] = {"id": lid, "code": CODE[lid], "name": lname, "color": col, "routes": routes}
-for s in stations.values():
-    z = s["zone"].replace("+", "/")
-    s["zone"] = z
+    out[lid] = {"id": lid, "code": code, "name": lname, "color": col, "mode": mode, "routes": routes}
 json.dump({"lines": out, "stations": stations}, open(SP + "network.json", "w"), ensure_ascii=False, indent=1)
 if __name__ == "__main__":
     for lid, L in out.items():
         print(L["name"], len(L["routes"]))
-        for r in L["routes"]: print("   ", r[0], "->", r[-1], len(r))
+        for i, r in enumerate(L["routes"]): print("   ", i, r[0], "->", r[-1], len(r))
     print(len(stations), "stations")
-    print([k for k in stations if "(" in k or "&" in k])

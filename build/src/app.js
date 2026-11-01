@@ -60,7 +60,7 @@ if (darkQ.addEventListener) darkQ.addEventListener("change", () => route());
 
 function setBand(mode, title, lineId){
   const isHome = mode === "home";
-  bandEyebrow.textContent = lineId ? t("lineTowards", { l: TUBE[lineId].name }) : t("brand");
+  bandEyebrow.textContent = lineId ? t("lineTowards", { l: lineLabel(lineId) }) : t("brand");
   bandTitle.textContent = title;
   bandEl.classList.toggle("on-line", !!lineId);
   setLineColours(lineId);
@@ -76,7 +76,10 @@ function setBand(mode, title, lineId){
   langMenu.querySelectorAll("[data-lang]").forEach(b => b.setAttribute("aria-checked", b.dataset.lang === LANG));
 }
 
-const lineBadge = (id, extra = "") => `<span class="mini-line" style="${lcStyle(id)}" title="${esc(TUBE[id].name)}" aria-label="${esc(TUBE[id].name)}"${extra}>${esc(TUBE[id].abbr)}</span>`;
+// "Bakerloo line", "ligne Elizabeth", "Weaver Line", "DLR"
+const lineLabel = (id, lang = LANG) => id === "dlr" ? "DLR" : (UI[lang].lineName || UI.en.lineName).replace("{n}", TUBE[id].name);
+const MODE_ORDER = ["tube", "elizabeth", "overground", "dlr"];
+const lineBadge = (id, extra = "") => `<span class="mini-line" style="${lcStyle(id)}" title="${esc(lineLabel(id))}" aria-label="${esc(lineLabel(id))}"${extra}>${esc(TUBE[id].abbr)}</span>`;
 const distTxt = d => d < 950 ? Math.round(d / 10) * 10 + " " + t("m") : (d / 1000).toFixed(1).replace(".", LANG === "en" ? "." : ",") + " " + t("km");
 const lineRoute = x => `l${x.no}-${x.dir}-s${x.pos}`;
 function resultRows(keys, dist){
@@ -103,7 +106,8 @@ function renderHome(){
       <button class="lines-toggle" id="linesToggle" aria-expanded="${open}" aria-controls="lineGrid">
         <span class="lt-text">${esc(t("choose"))}</span>${ICON_CHEV}
       </button>
-      <div class="tube-grid" id="lineGrid"${open ? "" : " hidden"}>${TUBE_ORDER.map(tile).join("")}</div>
+      <div class="tube-groups" id="lineGrid"${open ? "" : " hidden"}>${MODE_ORDER.map(m => { const ids = TUBE_ORDER.filter(id => TUBE[id].mode === m);
+        return ids.length ? `<p class="mode-label">${esc(t("mode_" + m))}</p><div class="tube-grid">${ids.map(tile).join("")}</div>` : ""; }).join("")}</div>
     </div>
     <hr class="home-rule mid-rule">
     <div class="finder">
@@ -134,7 +138,7 @@ function renderHome(){
     show(`<p class="note">${esc(t("locating"))}</p>`);
     locate(pos => {
       const d = {};
-      for (const k of Object.keys(STOP_LINES)) if (STOPS[k].ll) d[k] = haversine(pos, STOPS[k].ll);
+      for (const k of Object.keys(STOP_LINES)) if (STOPS[k].ll && STOPS[k].ll.length) d[k] = Math.min(...STOPS[k].ll.map(p => haversine(pos, p)));
       const near = Object.keys(d).filter(k => d[k] <= 2000).sort((a, b) => d[a] - d[b]).slice(0, 6);
       show((near.length ? `<p class="label">${esc(t("nearest"))}</p><ul class="results">${resultRows(near, d)}</ul>` : `<p class="note">${esc(t("locFar"))}</p>`)
         + `<p class="note loc-note">${esc(t("locPrivacy"))}</p>`);
@@ -200,7 +204,7 @@ function openBranches(R, dir){
   const T = TUBE[R.line];
   sheetCard.innerHTML = `
     <div class="sheet-head">
-      <div><div class="label">${esc(T.name)}</div><h2 id="sheetTitle">${esc(t("chooseRoute"))}</h2></div>
+      <div><div class="label">${esc(lineLabel(R.line))}</div><h2 id="sheetTitle">${esc(t("chooseRoute"))}</h2></div>
       <button class="x" id="xBtn" aria-label="${esc(t("close"))}">${X_SVG}</button>
     </div>
     <ul class="branch-list">${T.routes.map(rid => { const X = LINES[rid];
@@ -268,27 +272,27 @@ function renderAbout(){
 const ABOUT = {
 en: `
   <h2>About Stop Stories</h2>
-  <p>Every London Underground station has a name, and most of those names hide a story: an Old English farmstead, a vanished inn, a royal park, a forgotten river or a famous person. Stop Stories tells these stories in a few lines, short enough to read between two stations.</p>
+  <p>Every station in London has a name, and most of those names hide a story: an Old English farmstead, a vanished inn, a royal park, a forgotten river, an old dock or a famous person. Stop Stories tells these stories in a few lines, short enough to read between two stations. It covers the Underground, the Elizabeth line, London Overground and the DLR.</p>
   <h3>Who is behind it</h3>
-  <p>Stop Stories is a small private project. It is <b>not</b> an official app of Transport for London (TfL) or London Underground, and it is not connected with them.</p>
+  <p>Stop Stories is a small private project. It is <b>not</b> an official app of Transport for London (TfL), and it is not connected with TfL or any railway operator.</p>
   <h3>Where the information comes from</h3>
   <p>The texts are written from public sources, mainly Wikipedia, and each station links to its sources under "Read more". Many London place names go back to Old English, and their exact meaning is sometimes disputed; where scholars are unsure, the text says so. Lines, stations and their locations come from TfL's open data (Unified API). Powered by TfL Open Data; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
   <h3>Found a mistake?</h3>
   <p>Use "Help us improve" on any station, or write to <a data-mail></a>. Thank you!</p>`,
 fr: `
   <h2>À propos de Stop Stories</h2>
-  <p>Chaque station du métro de Londres porte un nom, et la plupart de ces noms cachent une histoire : une ferme anglo-saxonne, une auberge disparue, un parc royal, une rivière oubliée ou un personnage célèbre. Stop Stories raconte ces histoires en quelques lignes, assez courtes pour être lues entre deux stations.</p>
+  <p>Chaque station de Londres porte un nom, et la plupart de ces noms cachent une histoire\u00a0: une ferme anglo-saxonne, une auberge disparue, un parc royal, une rivière oubliée, un ancien dock ou un personnage célèbre. Stop Stories raconte ces histoires en quelques lignes, assez courtes pour être lues entre deux stations. L'application couvre le métro (Underground), l'Elizabeth line, le London Overground et le DLR.</p>
   <h3>Qui est derrière</h3>
-  <p>Stop Stories est un petit projet privé. Ce n'est <b>pas</b> une application officielle de Transport for London (TfL) ou du London Underground, et il n'a aucun lien avec eux.</p>
+  <p>Stop Stories est un petit projet privé. Ce n'est <b>pas</b> une application officielle de Transport for London (TfL), et il n'a aucun lien avec TfL ni avec un exploitant ferroviaire.</p>
   <h3>D'où viennent les informations</h3>
   <p>Les textes sont rédigés à partir de sources publiques, surtout Wikipédia, et chaque station renvoie à ses sources sous « En savoir plus ». Beaucoup de noms de lieux londoniens remontent au vieil anglais, et leur sens exact est parfois discuté ; quand les spécialistes hésitent, le texte le dit. Les lignes, les stations et leur emplacement proviennent des données ouvertes de TfL (Unified API). Powered by TfL Open Data ; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
   <h3>Vous avez trouvé une erreur ?</h3>
   <p>Utilisez « Une erreur ? » sur n'importe quelle station, ou écrivez à <a data-mail></a>. Merci !</p>`,
 de: `
   <h2>Über Stop Stories</h2>
-  <p>Jede Londoner U-Bahn-Station hat einen Namen, und hinter den meisten dieser Namen steckt eine Geschichte: ein angelsächsischer Hof, ein verschwundenes Gasthaus, ein königlicher Park, ein vergessener Fluss oder eine berühmte Person. Stop Stories erzählt diese Geschichten in wenigen Zeilen, kurz genug, um sie zwischen zwei Stationen zu lesen.</p>
+  <p>Jede Station in London hat einen Namen, und hinter den meisten dieser Namen steckt eine Geschichte: ein angelsächsischer Hof, ein verschwundenes Gasthaus, ein königlicher Park, ein vergessener Fluss, ein altes Hafenbecken oder eine berühmte Person. Stop Stories erzählt diese Geschichten in wenigen Zeilen, kurz genug, um sie zwischen zwei Stationen zu lesen. Die App umfasst die U-Bahn (Underground), die Elizabeth line, die London Overground und die DLR.</p>
   <h3>Wer steckt dahinter</h3>
-  <p>Stop Stories ist ein kleines privates Projekt. Es ist <b>keine</b> offizielle App von Transport for London (TfL) oder der London Underground und steht mit ihnen in keiner Verbindung.</p>
+  <p>Stop Stories ist ein kleines privates Projekt. Es ist <b>keine</b> offizielle App von Transport for London (TfL) und steht weder mit TfL noch mit einem Bahnbetreiber in Verbindung.</p>
   <h3>Woher die Informationen stammen</h3>
   <p>Die Texte beruhen auf öffentlichen Quellen, vor allem auf Wikipedia, und jede Station verweist unter „Mehr erfahren“ auf ihre Quellen. Viele Londoner Ortsnamen gehen auf das Altenglische zurück, und ihre genaue Bedeutung ist manchmal umstritten; wo die Fachleute unsicher sind, sagt der Text das. Linien, Stationen und ihre Lage stammen aus den offenen Daten von TfL (Unified API). Powered by TfL Open Data; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
   <h3>Einen Fehler gefunden?</h3>
@@ -400,10 +404,10 @@ function openFeedback(rid, dir, pos, s){
   form.addEventListener("submit", ev => {
     ev.preventDefault();
     const idx = [...form.querySelectorAll("input[name=issue]:checked")].map(i => +i.value);
-    const entry = { line: T.name, dir, pos, stop: s.name, towards: to,
+    const entry = { line: lineLabel(R.line, "en"), dir, pos, stop: s.name, towards: to,
       issues: idx.map(i => UI.en.issues[i]), comment: form.comment.value.trim(), lang: LANG };
     if (!entry.issues.length && !entry.comment) { err.hidden = false; return; }
-    location.href = `mailto:${OWNER_EMAIL}?subject=${encodeURIComponent("Stop Stories London feedback: " + entry.stop + " (" + entry.line + " line)")}&body=${encodeURIComponent(feedbackText(entry))}`;
+    location.href = `mailto:${OWNER_EMAIL}?subject=${encodeURIComponent("Stop Stories London feedback: " + entry.stop + " (" + entry.line + ")")}&body=${encodeURIComponent(feedbackText(entry))}`;
     showSent(entry);
   });
 }
@@ -421,7 +425,7 @@ async function copyText(txt){
 
 function feedbackText(e){
   return `Feedback on Stop Stories London
-${e.line} line, station ${e.pos}: ${e.stop} (towards ${e.towards})
+${e.line}, station ${e.pos}: ${e.stop} (towards ${e.towards})
 Issues: ${e.issues.length ? e.issues.join(", ") : "none selected"}
 Comment: ${e.comment || "(none)"}
 App language: ${e.lang.toUpperCase()}`;

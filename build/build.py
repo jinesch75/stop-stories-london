@@ -28,7 +28,12 @@ TUBE_META = {  # abbr, ink on line colour, accent on white, accent on dark
  "hammersmith-city": ("H&C", "#1b1b1b", "#b0405f", "#f3a9bb"), "jubilee": ("JUB", "#111", "#5f666b", "#c4c9cc"),
  "metropolitan": ("MET", "#fff", "#9b0056", "#e86aa6"), "northern": ("NOR", "#fff", "#1b1b1b", "#c9c9c9"),
  "piccadilly": ("PIC", "#fff", "#003688", "#7aa5f0"), "victoria": ("VIC", "#fff", "#00739f", "#4cc3f0"),
- "waterloo-city": ("W&C", "#111", "#2e7d66", "#95cdba")}
+ "waterloo-city": ("W&C", "#111", "#2e7d66", "#95cdba"),
+ "elizabeth": ("ELI", "#fff", "#6950a1", "#a993e0"),
+ "liberty": ("LIB", "#fff", "#5e5e5e", "#bdbdbd"), "lioness": ("LIO", "#1b1b1b", "#8a6400", "#f5c24a"),
+ "mildmay": ("MIL", "#fff", "#2f66a8", "#7fb0ea"), "suffragette": ("SUF", "#0f2e1e", "#1d7a4c", "#5fd49a"),
+ "weaver": ("WEA", "#fff", "#972861", "#e07aa8"), "windrush": ("WIN", "#fff", "#c4283b", "#ff8a96"),
+ "dlr": ("DLR", "#fff", "#007a7c", "#3fd0d3")}
 # Branch routes in the order riders will look for them (index into tfl_extract's list), with a "via" when two routes share their ends
 ROUTE_PLAN = {
  "central": [(2, None), (0, None), (4, "Newbury Park"), (1, None), (3, "Woodford")],
@@ -36,6 +41,7 @@ ROUTE_PLAN = {
  "metropolitan": [(0, None), (1, None), (2, None), (3, None)],
  "northern": [(4, "Bank"), (5, "Charing Cross"), (2, "Bank"), (7, "Charing Cross"), (0, None), (1, None), (3, "Bank"), (6, "Charing Cross")],
  "piccadilly": [(2, None), (1, None), (0, None)],
+ "elizabeth": [(2, None), (1, None), (0, None), (4, None), (3, None)],
 }
 TUBE, LINES = {}, {}
 for lid, L in NET["lines"].items():
@@ -49,7 +55,7 @@ for lid, L in NET["lines"].items():
         if via: assert via in stops, (lid, via)
         LINES[rid] = {"no": rid, "line": lid, "stops": stops, **({"via": via} if via else {})}
         rids.append(rid)
-    TUBE[lid] = {"name": L["name"], "abbr": abbr, "color": L["color"], "ink": ink, "acc": acc, "accD": accD, "routes": rids}
+    TUBE[lid] = {"name": L["name"], "mode": L["mode"], "abbr": abbr, "color": L["color"], "ink": ink, "acc": acc, "accD": accD, "routes": rids}
 TUBE_ORDER = list(NET["lines"])
 
 # ── Stations and stories ────────────────────────────────────────────────
@@ -68,20 +74,34 @@ LONDONIST = {"bakerloo": "https://londonist.com/london/transport/bakerloo_etymol
  "northern": "https://londonist.com/london/transport/how-the-northern-line-stations-got-their-names",
  "piccadilly": "https://londonist.com/london/transport/piccadilly-line-stations-etymology",
  "victoria": "https://londonist.com/london/transport/how-the-victoria-line-stations-got-their-names",
- "waterloo-city": None}
+ "waterloo-city": None,
+ "elizabeth": "https://londonist.com/london/transport/how-the-elizabeth-line-stations-got-their-names"}
+ROYAL_DOCKS = ("How the Royal Docks' 12 DLR stations got their names", "Royal Docks",
+               "https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names")
+ROYAL_DOCKS_STATIONS = {"Gallions Reach", "Cyprus", "Beckton Park", "Royal Albert", "Prince Regent", "Custom House",
+                        "Royal Victoria", "West Silvertown", "Pontoon Dock", "London City Airport", "King George V"}
+NEWB = json.load(open(SP + "research/new_boroughs.json"))
+NEWT = json.load(open(SP + "research/new_titles.json")) if os.path.exists(SP + "research/new_titles.json") else {}
+COUNTY = {"Slough": "Berkshire", "Windsor and Maidenhead": "Berkshire", "Reading": "Berkshire", "Wokingham": "Berkshire",
+          "Buckinghamshire": "Buckinghamshire"}
 wurl = lambda t: "https://en.wikipedia.org/wiki/" + urllib.parse.quote(t.replace(" ", "_"), safe="(),'&")
 BOROUGH_FIX = {"City of Westminster": "Westminster"}
 OUTSIDE = {"Amersham": "Buckinghamshire", "Chalfont & Latimer": "Buckinghamshire", "Chesham": "Buckinghamshire",
            "Chorleywood": "Hertfordshire", "Croxley": "Hertfordshire", "Moor Park": "Hertfordshire", "Rickmansworth": "Hertfordshire"}
 STOPS, missing = {}, []
 for raw, st in NET["stations"].items():
-    k = disp(raw); w = WL[k]
-    q = OUTSIDE.get(k) or BOROUGH_FIX.get(w["borough"], w["borough"])
+    k = disp(raw)
+    if k in WL:
+        w = WL[k]; q = OUTSIDE.get(k) or BOROUGH_FIX.get(w["borough"], w["borough"]); title = w["title"]
+    else:
+        b = NEWB[k]; title = NEWT.get(k, "")
+        q = BOROUGH_FIX.get(b["district"], b["district"]) if b["region"] == "London" else (b["county"] or COUNTY.get(b["district"], b["district"]))
     head, text, extra = STORIES.get(k, ("", "", []))
     if not head: missing.append(k)
     links = [{"t": t, "s": "Wikipedia", "u": wurl(t)} for t in extra]
-    links.append({"t": w["title"][0].upper() + w["title"][1:], "s": "Wikipedia", "u": wurl(w["title"])})
-    serving = [l for l in TUBE_ORDER if LONDONIST[l] and any(k in LINES[r]["stops"] for r in TUBE[l]["routes"])]
+    if title and title not in extra: links.append({"t": title[0].upper() + title[1:], "s": "Wikipedia", "u": wurl(title)})
+    if k in ROYAL_DOCKS_STATIONS: links.append({"t": ROYAL_DOCKS[0], "s": ROYAL_DOCKS[1], "u": ROYAL_DOCKS[2]})
+    serving = [l for l in TUBE_ORDER if LONDONIST.get(l) and any(k in LINES[r]["stops"] for r in TUBE[l]["routes"])]
     if serving: links.append({"t": f"How the {TUBE[serving[0]]['name']} line stations got their names", "s": "Londonist", "u": LONDONIST[serving[0]]})
     STOPS[k] = {"name": k, "q": q, "zone": st["zone"], "head": head, "text": text, "links": links, "ll": st["ll"]}
 unknown = [k for k in STORIES if k not in STOPS]
@@ -93,8 +113,7 @@ def fr_typo(x):
     return re.sub(r"«[ \u00a0]*", "«\u00a0", x)
 TR = {"fr": {}, "de": {}}
 for lang in TR:
-    p = SP + f"tr_{lang}.py"
-    if os.path.exists(p):
+    for p in sorted(glob.glob(SP + f"tr_{lang}*.py")):
         for k, v in load(p).TR.items():
             assert k in STOPS, ("translation for unknown station", lang, k)
             TR[lang][k] = [fr_typo(x) for x in v] if lang == "fr" else list(v)
@@ -129,7 +148,7 @@ html = f'''<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Stop Stories · London</title>
-<meta name="description" content="The hidden story behind the next London Underground station: short stories behind the names of all {len(STOPS)} stations. An independent project, not affiliated with TfL.">
+<meta name="description" content="The hidden story behind the next station in London: short stories behind the names of all {len(STOPS)} stations of the Underground, Elizabeth line, Overground and DLR. An independent project, not affiliated with TfL.">
 <meta name="theme-color" content="#16201f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon-192.png" type="image/png">
