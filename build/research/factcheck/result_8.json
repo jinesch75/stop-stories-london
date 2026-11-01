@@ -1,0 +1,192 @@
+{
+ "batch": 8,
+ "checked": 47,
+ "ok": [
+  "Victoria",
+  "Walthamstow Central",
+  "Walthamstow Queen's Road",
+  "Wandsworth Road",
+  "Wanstead",
+  "Wanstead Park",
+  "Waterloo",
+  "Watford",
+  "Watford High Street",
+  "Watford Junction",
+  "Wembley Central",
+  "Wembley Park",
+  "West Acton",
+  "West Croydon",
+  "West Drayton",
+  "West Ealing",
+  "West Finchley",
+  "West Hampstead",
+  "West Harrow",
+  "West India Quay",
+  "West Kensington",
+  "West Ruislip",
+  "West Silvertown",
+  "Westferry",
+  "Westminster",
+  "White City",
+  "Wimbledon",
+  "Wimbledon Park",
+  "Wood Street",
+  "Woodford",
+  "Woodgrange Park",
+  "Woodside Park",
+  "Woolwich",
+  "Woolwich Arsenal"
+ ],
+ "issues": [
+  {
+   "station": "Vauxhall",
+   "severity": "overstated",
+   "claim": "Falkes de Breauté built it in the 13th century.",
+   "problem": "Sources say Falkes owned a large house here (acquired South Lambeth through marriage in 1216); none says he built it.",
+   "correct": "Falkes de Breauté, head of King John's mercenaries, owned a large house in the area, called Faulke's Hall, later Foxhall, then Vauxhall.",
+   "source": "https://en.wikipedia.org/wiki/Vauxhall",
+   "suggested_head": null,
+   "suggested_text": "Falkes de Breauté owned a large house here in the 13th century. Later, Vauxhall Pleasure Gardens were famous across Europe, and the car maker took its name from the area."
+  },
+  {
+   "station": "Wapping",
+   "severity": "overstated",
+   "claim": "'Wapping' means the place of Wæppa's people.",
+   "problem": "The meaning is disputed. Wikipedia now favours Old English wapol, a marsh; Hidden London favours Wæppa's people but gives the marsh theory too.",
+   "correct": "Either 'settlement of Wæppa's people' or 'marshy place' (from wapol).",
+   "source": "https://en.wikipedia.org/wiki/Wapping ; https://hidden-london.com/?p=10235",
+   "suggested_head": "'Wapping' may mean the place of Wæppa's people, or a marshy place.",
+   "suggested_text": "It was recorded around 1220. Pirates were hanged at Execution Dock in Wapping, among them Captain Kidd in 1701."
+  },
+  {
+   "station": "Wapping",
+   "severity": "unsure",
+   "claim": "It was recorded in 1231.",
+   "problem": "Could not confirm 1231. Hidden London (following Mills) gives the first record as c.1220; Wikipedia gives no date.",
+   "correct": "First recorded c.1220.",
+   "source": "https://hidden-london.com/?p=10235",
+   "suggested_head": null,
+   "suggested_text": "It was recorded around 1220. Pirates were hanged at Execution Dock in Wapping, among them Captain Kidd in 1701."
+  },
+  {
+   "station": "Warren Street",
+   "severity": "overstated",
+   "claim": "Named after Anne Warren, wife of the landowner Charles FitzRoy.",
+   "problem": "Sources differ. Wikipedia's Warren Street and station articles say the street is named after Admiral Sir Peter Warren, Anne's father; other accounts name Anne herself.",
+   "correct": "Named after Admiral Sir Peter Warren (Wikipedia) or his daughter and heiress Anne, who married Charles FitzRoy, 1st Baron Southampton. Opened 22 June 1907 as Euston Road, renamed 7 June 1908 (correct in text).",
+   "source": "https://en.wikipedia.org/wiki/Warren_Street",
+   "suggested_head": "Named after Anne Warren, or her father Admiral Sir Peter Warren.",
+   "suggested_text": "Anne married the landowner Charles FitzRoy, later Baron Southampton, who developed the land in the late 18th century. The station opened in 1907 as Euston Road and was renamed a year later."
+  },
+  {
+   "station": "Warwick Avenue",
+   "severity": "unsure",
+   "claim": "Named after Jane Warwick, wife of Sir John Frederick. ... Frederick leased the land from the Bishop of London",
+   "problem": "Sources disagree about her husband. Londonist says Sir John Frederick. Wikipedia says her father-in-law was John Morehead, son-in-law of Robert Thistlethwaite, who leased the land. Hidden London says only that she married into a local landowning family in 1778. It also says the Bishop of London's surveyor, George Gutch, named the street Warwick Road in 1827. Station opening in 1915 is correct (31 January 1915).",
+   "correct": "Jane Warwick of Warwick Hall, near Carlisle, married into the family that leased the land, in 1778. The husband's name is not settled.",
+   "source": "https://en.wikipedia.org/wiki/Warwick_Avenue,_London ; https://hidden-london.com/?p=5784",
+   "suggested_head": "Named after Jane Warwick, who married into a local landowning family.",
+   "suggested_text": "She married in 1778. The land belonged to the Bishop of London, and the street was named after her. The station opened in 1915."
+  },
+  {
+   "station": "West Brompton",
+   "severity": "error",
+   "claim": "The station opened in 1869",
+   "problem": "1869 is when the District Railway platforms opened. The first West Brompton station (West London Extension Railway) opened in 1866.",
+   "correct": "First station opened 1 September 1866; District Railway station 12 April 1869; West London Line platforms closed 1940 and reopened 1999.",
+   "source": "https://en.wikipedia.org/wiki/West_Brompton_station",
+   "suggested_head": null,
+   "suggested_text": "Broom is a yellow-flowered shrub. The first station opened in 1866; Brompton Cemetery, one of London's 'Magnificent Seven' cemeteries, is next door."
+  },
+  {
+   "station": "West Ham",
+   "severity": "error",
+   "claim": "It was split into East Ham and West Ham in the 12th century.",
+   "problem": "Wikipedia puts the split between 958 and 1037. 1186 is only the first record of the name West Ham.",
+   "correct": "Ham was divided between 958 and 1037; 'Westhamma' first recorded in 1186.",
+   "source": "https://en.wikipedia.org/wiki/West_Ham",
+   "suggested_head": null,
+   "suggested_text": "Here the land lies between the Thames, the Lea and the Roding. It was split into East Ham and West Ham before 1100. The football club West Ham United took its name from the area."
+  },
+  {
+   "station": "Westbourne Park",
+   "severity": "error",
+   "claim": "Named after the River Westbourne, the 'western stream'.",
+   "problem": "British History Online rejects 'west stream'. The name meant a place on the west side of the stream, and the stream was later named after the place. Also, Westbourne Green is first recorded in 1548. The medieval name, recorded from 1222, was Westbourne.",
+   "correct": "Westbourne (recorded 1222) was a place west of the stream; the stream was later called the Westbourne. The river rises in Hampstead and is culverted (correct).",
+   "source": "https://prod.british-history.ac.uk/node/15813 ; https://en.wikipedia.org/wiki/Westbourne,_London",
+   "suggested_head": "Named after Westbourne, the place to the west of the stream.",
+   "suggested_text": "Westbourne was recorded in 1222. The stream, which rises in Hampstead and now runs hidden in pipes, was later named the Westbourne after it."
+  },
+  {
+   "station": "Westbourne Park",
+   "severity": "error",
+   "claim": "area: Westminster",
+   "problem": "The station is in the Royal Borough of Kensington and Chelsea (Notting Hill), though the Westbourne district is in Westminster.",
+   "correct": "Kensington and Chelsea",
+   "source": "https://en.wikipedia.org/wiki/Westbourne_Park_tube_station",
+   "suggested_head": null,
+   "suggested_text": null
+  },
+  {
+   "station": "Whitechapel",
+   "severity": "overstated",
+   "claim": "The chapel was built of white chalk stone in the 13th century, and its bright walls gave the area its name.",
+   "problem": "Sources differ on why it was white. Londonist says it was built of white chalk rubble. Wikipedia says it was whitewashed, like the White Tower. Neither of these sources dates it to the 13th century, though that date is commonly given.",
+   "correct": "St Mary's chapel of ease was white, either from chalk rubble or from whitewash; the area was called Whitechapel by 1344.",
+   "source": "https://en.wikipedia.org/wiki/Whitechapel ; https://londonist.com/2016/08/is-whitechapel-named-after-a-white-chapel",
+   "suggested_head": null,
+   "suggested_text": "The chapel was built in the Middle Ages. Its walls were white, from chalk stone or whitewash, and gave the area its name."
+  },
+  {
+   "station": "White Hart Lane",
+   "severity": "overstated",
+   "claim": "Named after White Hart Lane, after an inn called the White Hart.",
+   "problem": "Sources say the origin of the road name is unclear. It probably dates from the 17th century. Hidden London mentions a White Hart inn on the High Road, but does not say the lane was named after it.",
+   "correct": "The road existed by 1619 (part then called Apeland Street) and probably got its name in the 17th century; origin unclear.",
+   "source": "https://en.wikipedia.org/wiki/White_Hart_Lane_railway_station ; https://hidden-london.com/?p=6228",
+   "suggested_head": "Named after White Hart Lane, a road named in the 1600s.",
+   "suggested_text": "The white hart was the badge of King Richard II and a popular inn sign; the lane may be named after an inn. Tottenham Hotspur's ground nearby was long known as White Hart Lane."
+  },
+  {
+   "station": "Willesden Green",
+   "severity": "error",
+   "claim": "'Willesden' means the spring by the hill.",
+   "problem": "The meaning is reversed. The main word is dun, hill, so the name means a hill with a spring, not a spring by a hill.",
+   "correct": "Willesdune, 'hill of the spring' (Wikipedia); 'a spring on a hill' (Londonist). First record 939 and station opening 1879 are correct.",
+   "source": "https://en.wikipedia.org/wiki/Willesden",
+   "suggested_head": "'Willesden' means the hill with a spring.",
+   "suggested_text": null
+  },
+  {
+   "station": "Willesden Junction",
+   "severity": "error",
+   "claim": "'Willesden' means the spring by the hill.",
+   "problem": "Reversed meaning, as for Willesden Green. The name means a hill with a spring.",
+   "correct": "'Hill of the spring'. Bakerloo service from 1915 is correct.",
+   "source": "https://en.wikipedia.org/wiki/Willesden",
+   "suggested_head": null,
+   "suggested_text": "'Willesden' means the hill with a spring. Several railway lines meet and cross here. Bakerloo trains have called since 1915."
+  },
+  {
+   "station": "Wood Green",
+   "severity": "error",
+   "claim": "on the edge of the forest of Enfield Chase",
+   "problem": "Wikipedia says the woodland here was Tottenham Wood, not Enfield Chase.",
+   "correct": "Wood Green was open ground near Tottenham Wood, which once covered most of the area.",
+   "source": "https://en.wikipedia.org/wiki/Wood_Green",
+   "suggested_head": null,
+   "suggested_text": "The village grew around an open space on the edge of Tottenham Wood. The station opened in 1932."
+  },
+  {
+   "station": "Wood Lane",
+   "severity": "unsure",
+   "claim": "It was renamed after the woods nearby.",
+   "problem": "Wikipedia (Wood Lane; History of Shepherd's Bush) and Hidden London confirm it was Turvens Lane in the 1780s and Wood Lane by the 1830s. None gives a reason for the new name. The 2008 opening and BBC Television Centre are correct.",
+   "correct": "Called Turvens Lane (after Turvens House) in the 1780s; current name by the 1830s; reason not given.",
+   "source": "https://en.wikipedia.org/wiki/Wood_Lane",
+   "suggested_head": null,
+   "suggested_text": "Its old name came from Turvens House. The station opened in 2008, next to the old BBC Television Centre."
+  }
+ ]
+}
