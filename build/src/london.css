@@ -1,0 +1,39 @@
+
+/* ── London edition ─────────────────────────────────────────────────────
+   Neutral Stop Stories look (no roundel, no TfL typeface). Line colours only
+   identify the lines; each line page sets --lc (line colour), --lc-ink (text on
+   it) and --route (an accent that stays readable on white). */
+.band.on-line{background:var(--lc,#16201f);color:var(--lc-ink,#fff)}
+.band.on-line .eyebrow{color:inherit;opacity:.82}
+.band.on-line .back{color:inherit;border-color:currentColor;opacity:.9}
+.band.on-line h1{color:inherit}
+.lineno[hidden]{display:none}
+
+/* home: the eleven lines as named rows with a colour bar */
+.tube-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.05);padding:14px 14px 16px}
+.tube-lead{margin:2px 2px 12px;font-size:16px;font-weight:600}
+.tube-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tube-tile{display:flex;align-items:center;gap:10px;min-height:48px;padding:6px 10px 6px 0;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);cursor:pointer;text-align:left;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.08),0 4px 10px rgba(13,60,55,.12);transition:transform .12s,border-color .12s}
+.tube-tile:hover{border-color:var(--muted)}
+.tube-tile:active{transform:scale(.97)}
+.tube-tile .bar{flex:none;align-self:stretch;width:12px;margin:-6px 0;background:var(--lc)}
+.tube-tile b{font-family:var(--f-display);font-weight:700;font-size:19px;line-height:1.05}
+@media (max-width:340px){.tube-grid{grid-template-columns:1fr}}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) .tube-tile{box-shadow:0 2px 3px rgba(0,0,0,.35),0 6px 14px rgba(0,0,0,.3)}}
+
+/* small line badges (near me, quiz pop-ups) */
+.mini-line{background:var(--lc)!important;color:var(--lc-ink)!important;font-size:13px;min-width:34px;letter-spacing:.02em}
+
+/* route chooser for lines with branches */
+.branch-btn{display:flex;align-items:center;gap:8px;width:100%;margin-top:-10px;padding:10px 14px;border:1px dashed var(--line);border-radius:12px;background:none;color:var(--route);font-weight:700;font-size:15px;cursor:pointer;text-align:left}
+.branch-btn:hover{border-color:var(--route);background:var(--route-soft)}
+.branch-btn small{display:block;font-weight:400;color:var(--muted);font-size:13.5px}
+.branch-list{list-style:none;margin:8px 0 0;padding:0;display:flex;flex-direction:column;gap:8px}
+.branch-list button{display:flex;align-items:center;gap:10px;width:100%;text-align:left;padding:11px 12px;border:1px solid var(--line);border-radius:12px;background:var(--surface);color:var(--ink);cursor:pointer;font-size:15.5px;line-height:1.3}
+.branch-list button:hover{border-color:var(--route)}
+.branch-list button[aria-current="true"]{border-color:var(--route);box-shadow:0 0 0 2px var(--route-soft);font-weight:700}
+.branch-list .n{flex:none;font-size:13px;color:var(--muted);font-weight:400}
+.branch-list .t{flex:1;min-width:0}
+
+/* line-coloured accents on the line and station pages */
+.fb-about .lineno{background:var(--lc);color:var(--lc-ink);font-size:14px;min-width:0;padding:0 8px}

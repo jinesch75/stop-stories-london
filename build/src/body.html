@@ -1,0 +1,24 @@
+<header class="band">
+  <div class="wrap">
+    <button class="back" id="back" aria-label="Back" hidden>
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>
+    </button>
+    <div class="band-title">
+      <div class="brandrow"><span class="eyebrow" id="bandEyebrow">London</span>
+        <div class="langpick" id="langBar" hidden>
+          <button class="flagbtn" id="langBtn" aria-haspopup="true" aria-expanded="false" aria-label="Language"></button>
+          <div class="langmenu" id="langMenu" role="menu" hidden><button data-lang="en" lang="en" role="menuitemradio"></button><button data-lang="fr" lang="fr" role="menuitemradio"></button><button data-lang="de" lang="de" role="menuitemradio"></button></div>
+        </div>
+      </div>
+      <h1 id="bandTitle">Stop Stories</h1>
+      <p class="tagline" id="bandTag" hidden></p>
+    </div>
+  </div>
+</header>
+
+<main class="wrap" id="app" aria-live="polite"></main>
+<nav class="nav" id="nav" hidden></nav>
+
+<div class="sheet" id="sheet" hidden role="dialog" aria-modal="true" aria-labelledby="sheetTitle">
+  <div class="sheet-card" id="sheetCard"></div>
+</div>

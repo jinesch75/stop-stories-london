@@ -1,0 +1,1885 @@
+{
+ "Acton Town": {
+  "title": "Acton Town tube station",
+  "borough": "Ealing",
+  "opened": "1879",
+  "area": "Acton, London",
+  "prev": "Mill Hill Park: 1879–1910"
+ },
+ "Aldgate": {
+  "title": "Aldgate tube station",
+  "borough": "City of London",
+  "opened": "1876",
+  "area": "Portsoken",
+  "prev": ""
+ },
+ "Aldgate East": {
+  "title": "Aldgate East tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1884",
+  "area": "Whitechapel",
+  "prev": "Commercial Road: proposed before opening"
+ },
+ "Alperton": {
+  "title": "Alperton tube station",
+  "borough": "Brent",
+  "opened": "1903",
+  "area": "Alperton",
+  "prev": "Perivale-Alperton: 1903–1910"
+ },
+ "Amersham": {
+  "title": "Amersham station",
+  "borough": "",
+  "opened": "1892",
+  "area": "Amersham",
+  "prev": "{{ubli|Amersham: 1892–1922 | Amersham & Chesham Bois: 1922–1934 }}"
+ },
+ "Angel": {
+  "title": "Angel tube station",
+  "borough": "Islington",
+  "opened": "1901",
+  "area": "Angel, London",
+  "prev": ""
+ },
+ "Archway": {
+  "title": "Archway tube station",
+  "borough": "Islington",
+  "opened": "1907",
+  "area": "Archway, London",
+  "prev": "{{ubli|Archway Tavern: proposed before opening | Highgate: 1907–1939 | Archway (Highgate): 1939–1941 | Highgate (Archway): 1941–1947 }}"
+ },
+ "Arnos Grove": {
+  "title": "Arnos Grove tube station",
+  "borough": "Enfield",
+  "opened": "1932",
+  "area": "Arnos Grove",
+  "prev": "Bowes Road: proposed before opening"
+ },
+ "Arsenal": {
+  "title": "Arsenal tube station",
+  "borough": "Islington",
+  "opened": "1906",
+  "area": "Highbury",
+  "prev": "{{ubli|Gillespie Road: 1906–1932 | Arsenal (Highbury Hill): 1932–{{circa|1960}} }}"
+ },
+ "Baker Street": {
+  "title": "Baker Street tube station",
+  "borough": "City of Westminster",
+  "opened": "1863",
+  "area": "Marylebone",
+  "prev": ""
+ },
+ "Balham": {
+  "title": "Balham station#London Underground station",
+  "borough": "Wandsworth",
+  "opened": "1926",
+  "area": "Balham",
+  "prev": ""
+ },
+ "Bank": {
+  "title": "Bank and Monument stations",
+  "borough": "City of London",
+  "opened": "1898",
+  "area": "City of London",
+  "prev": "{{ubli| City [W&C]: 1898–1940  | Lombard Street [Northern]: proposed before opening }}"
+ },
+ "Barbican": {
+  "title": "Barbican tube station",
+  "borough": "City of London",
+  "opened": "1865",
+  "area": "Barbican Estate",
+  "prev": "{{ubli|Aldersgate Street: 1865–1910 | Aldersgate: 1910–1923 | Aldersgate & Barbican: 1923–1968 }}"
+ },
+ "Barking": {
+  "title": "Barking station",
+  "borough": "Barking and Dagenham",
+  "opened": "1902",
+  "area": "Barking, London",
+  "prev": ""
+ },
+ "Barkingside": {
+  "title": "Barkingside tube station",
+  "borough": "Redbridge",
+  "opened": "1948",
+  "area": "Barkingside",
+  "prev": ""
+ },
+ "Barons Court": {
+  "title": "Barons Court tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1905",
+  "area": "West Kensington",
+  "prev": ""
+ },
+ "Battersea Power Station": {
+  "title": "Battersea Power Station tube station",
+  "borough": "Wandsworth",
+  "opened": "2021",
+  "area": "Battersea",
+  "prev": "Battersea: proposed"
+ },
+ "Bayswater": {
+  "title": "Bayswater tube station",
+  "borough": "City of Westminster",
+  "opened": "1868",
+  "area": "Bayswater",
+  "prev": "{{ubli|Bayswater: 1868–1923 | Bayswater (Queen's Road) & Westbourne Grove: 1923–1933 | Bayswater (Queen's Road): 1933–1946 | Bayswater (Queensway): 1946, suffix gradually dropped }}"
+ },
+ "Becontree": {
+  "title": "Becontree tube station",
+  "borough": "Barking and Dagenham",
+  "opened": "1932",
+  "area": "Becontree",
+  "prev": "Gale Street: 1926–1932"
+ },
+ "Belsize Park": {
+  "title": "Belsize Park tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Belsize Park",
+  "prev": "Belsize: proposed before opening"
+ },
+ "Bermondsey": {
+  "title": "Bermondsey tube station",
+  "borough": "Southwark",
+  "opened": "1999",
+  "area": "Bermondsey",
+  "prev": ""
+ },
+ "Bethnal Green": {
+  "title": "Bethnal Green tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1946",
+  "area": "Bethnal Green",
+  "prev": "Bethnal: proposed before opening"
+ },
+ "Blackfriars": {
+  "title": "Blackfriars station#London Underground",
+  "borough": "City of London",
+  "opened": "1870",
+  "area": "Blackfriars, London",
+  "prev": ""
+ },
+ "Blackhorse Road": {
+  "title": "Blackhorse Road station",
+  "borough": "Waltham Forest",
+  "opened": "1968",
+  "area": "Walthamstow",
+  "prev": ""
+ },
+ "Bond Street": {
+  "title": "Bond Street tube station",
+  "borough": "City of Westminster",
+  "opened": "1900",
+  "area": "Mayfair",
+  "prev": "{{ubli| Davies Street: proposed before opening | Selfridge's: proposed 1909 }}"
+ },
+ "Borough": {
+  "title": "Borough tube station",
+  "borough": "Southwark",
+  "opened": "1890",
+  "area": "Southwark",
+  "prev": ""
+ },
+ "Boston Manor": {
+  "title": "Boston Manor tube station",
+  "borough": "Hounslow",
+  "opened": "1883",
+  "area": "Hanwell",
+  "prev": "Boston Road: 1883–1911"
+ },
+ "Bounds Green": {
+  "title": "Bounds Green tube station",
+  "borough": "Haringey",
+  "opened": "1932",
+  "area": "Bounds Green",
+  "prev": "Brownlow Road: proposed before opening"
+ },
+ "Bow Road": {
+  "title": "Bow Road tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1902",
+  "area": "Bow, London",
+  "prev": ""
+ },
+ "Brent Cross": {
+  "title": "Brent Cross tube station",
+  "borough": "Barnet",
+  "opened": "1923",
+  "area": "Brent Cross",
+  "prev": "Woodstock: proposed before opening | Brent: 1923–1976"
+ },
+ "Brixton": {
+  "title": "Brixton tube station",
+  "borough": "Lambeth",
+  "opened": "1971",
+  "area": "Brixton",
+  "prev": ""
+ },
+ "Bromley-by-Bow": {
+  "title": "Bromley-by-Bow tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1902",
+  "area": "Bromley-by-Bow",
+  "prev": "Bromley: 1858–1968"
+ },
+ "Buckhurst Hill": {
+  "title": "Buckhurst Hill tube station",
+  "borough": "Epping Forest",
+  "opened": "1948",
+  "area": "Buckhurst Hill",
+  "prev": ""
+ },
+ "Burnt Oak": {
+  "title": "Burnt Oak tube station",
+  "borough": "Barnet",
+  "opened": "1924",
+  "area": "Burnt Oak",
+  "prev": "{{ubli|Sheaves Hill: proposed before opening | Burnt Oak: 1924–1928 | Burnt Oak (for Watling): 1928, suffix gradually dropped }}"
+ },
+ "Caledonian Road": {
+  "title": "Caledonian Road tube station",
+  "borough": "Islington",
+  "opened": "1906",
+  "area": "Holloway, London",
+  "prev": "Barnsbury: proposed before opening"
+ },
+ "Camden Town": {
+  "title": "Camden Town tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Camden Town",
+  "prev": "Camden Road: proposed before opening"
+ },
+ "Canada Water": {
+  "title": "Canada Water station",
+  "borough": "Southwark",
+  "opened": "1999",
+  "area": "Canada Water",
+  "prev": ""
+ },
+ "Canary Wharf": {
+  "title": "Canary Wharf tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1999",
+  "area": "Canary Wharf",
+  "prev": ""
+ },
+ "Canning Town": {
+  "title": "Canning Town station",
+  "borough": "Newham",
+  "opened": "1999",
+  "area": "Canning Town",
+  "prev": ""
+ },
+ "Cannon Street": {
+  "title": "Cannon Street station#London Underground",
+  "borough": "City of London",
+  "opened": "1884",
+  "area": "City of London",
+  "prev": ""
+ },
+ "Canons Park": {
+  "title": "Canons Park tube station",
+  "borough": "Harrow",
+  "opened": "1932",
+  "area": "Stanmore",
+  "prev": "Canons Park (Edgware): 1932–1933"
+ },
+ "Chalfont & Latimer": {
+  "title": "Chalfont & Latimer station",
+  "borough": "",
+  "opened": "1889",
+  "area": "Little Chalfont",
+  "prev": "Chalfont Road: 1889–1915"
+ },
+ "Chalk Farm": {
+  "title": "Chalk Farm tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Chalk Farm",
+  "prev": "Adelaide Road: proposed before opening"
+ },
+ "Chancery Lane": {
+  "title": "Chancery Lane tube station",
+  "borough": "City of London",
+  "opened": "1900",
+  "area": "Holborn",
+  "prev": "{{ubli|Chancery Lane: 1900–1934| Chancery Lane (Grays Inn): 1934, suffix gradually dropped }}"
+ },
+ "Charing Cross": {
+  "title": "Charing Cross tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "Charing Cross",
+  "prev": "{{ubli| Trafalgar Square [Bakerloo]: 1906–1979 | Charing Cross [Northern]: 1907–1914| Charing Cross (Strand) [Northern]: 1914–1915| Strand [Northern]: 1915–1979 }}"
+ },
+ "Chesham": {
+  "title": "Chesham tube station",
+  "borough": "",
+  "opened": "1889",
+  "area": "Chesham",
+  "prev": ""
+ },
+ "Chigwell": {
+  "title": "Chigwell tube station",
+  "borough": "Epping Forest",
+  "opened": "1948",
+  "area": "Chigwell",
+  "prev": ""
+ },
+ "Chiswick Park": {
+  "title": "Chiswick Park tube station",
+  "borough": "Ealing",
+  "opened": "1879",
+  "area": "Chiswick",
+  "prev": "{{ubli|Acton Green: 1879–1887| Chiswick Park & Acton Green: 1887–1910 }}"
+ },
+ "Chorleywood": {
+  "title": "Chorleywood station",
+  "borough": "",
+  "opened": "1889",
+  "area": "Chorleywood",
+  "prev": "{{ubli|Chorley Wood: 1889–1915 | Chorley Wood & Chenies: 1915–1934| Chorley Wood: 1934–1964 }}"
+ },
+ "Clapham Common": {
+  "title": "Clapham Common tube station",
+  "borough": "Lambeth",
+  "opened": "1900",
+  "area": "Clapham",
+  "prev": ""
+ },
+ "Clapham North": {
+  "title": "Clapham North tube station",
+  "borough": "Lambeth",
+  "opened": "1900",
+  "area": "Clapham",
+  "prev": "Clapham Road: 1900–1926"
+ },
+ "Clapham South": {
+  "title": "Clapham South tube station",
+  "borough": "Wandsworth",
+  "opened": "1926",
+  "area": "Clapham",
+  "prev": "Nightingale Lane: proposed before opening"
+ },
+ "Cockfosters": {
+  "title": "Cockfosters tube station",
+  "borough": "Enfield",
+  "opened": "1933",
+  "area": "Cockfosters",
+  "prev": "Trent Park: proposed before opening"
+ },
+ "Colindale": {
+  "title": "Colindale tube station",
+  "borough": "Barnet",
+  "opened": "1924",
+  "area": "Colindale",
+  "prev": ""
+ },
+ "Colliers Wood": {
+  "title": "Colliers Wood tube station",
+  "borough": "Merton",
+  "opened": "1926",
+  "area": "Colliers Wood",
+  "prev": ""
+ },
+ "Covent Garden": {
+  "title": "Covent Garden tube station",
+  "borough": "City of Westminster",
+  "opened": "1907",
+  "area": "Covent Garden",
+  "prev": ""
+ },
+ "Croxley": {
+  "title": "Croxley tube station",
+  "borough": "",
+  "opened": "1925",
+  "area": "Croxley Green",
+  "prev": "Croxley Green: 1925–1949"
+ },
+ "Dagenham East": {
+  "title": "Dagenham East tube station",
+  "borough": "Barking and Dagenham",
+  "opened": "1902",
+  "area": "Dagenham",
+  "prev": "Dagenham: 1888–1949"
+ },
+ "Dagenham Heathway": {
+  "title": "Dagenham Heathway tube station",
+  "borough": "Barking and Dagenham",
+  "opened": "1932",
+  "area": "Dagenham",
+  "prev": "Heathway: 1932–1949"
+ },
+ "Debden": {
+  "title": "Debden tube station",
+  "borough": "Epping Forest",
+  "opened": "1949",
+  "area": "Debden, Epping Forest",
+  "prev": "{{ubli|Chigwell Road: 1865 | Chigwell Lane: 1865–1949 }}"
+ },
+ "Dollis Hill": {
+  "title": "Dollis Hill tube station",
+  "borough": "Brent",
+  "opened": "1909",
+  "area": "Dollis Hill",
+  "prev": ""
+ },
+ "Ealing Broadway": {
+  "title": "Ealing Broadway station",
+  "borough": "Ealing",
+  "opened": "1879",
+  "area": "Ealing",
+  "prev": ""
+ },
+ "Ealing Common": {
+  "title": "Ealing Common tube station",
+  "borough": "Ealing",
+  "opened": "1879",
+  "area": "Ealing",
+  "prev": "{{ubli|Ealing Common: 1879–1886| Ealing Common and West Acton: 1886–1910}}"
+ },
+ "Earl's Court": {
+  "title": "Earl's Court tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1871",
+  "area": "Earl's Court",
+  "prev": ""
+ },
+ "East Acton": {
+  "title": "East Acton tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1920",
+  "area": "Acton, London",
+  "prev": ""
+ },
+ "East Finchley": {
+  "title": "East Finchley tube station",
+  "borough": "Barnet",
+  "opened": "1939",
+  "area": "Finchley",
+  "prev": ""
+ },
+ "East Ham": {
+  "title": "East Ham tube station",
+  "borough": "Newham",
+  "opened": "1902",
+  "area": "East Ham",
+  "prev": ""
+ },
+ "East Putney": {
+  "title": "East Putney tube station",
+  "borough": "Wandsworth",
+  "opened": "1889",
+  "area": "Putney",
+  "prev": ""
+ },
+ "Eastcote": {
+  "title": "Eastcote tube station",
+  "borough": "Hillingdon",
+  "opened": "1906",
+  "area": "Eastcote",
+  "prev": ""
+ },
+ "Edgware": {
+  "title": "Edgware tube station",
+  "borough": "Barnet",
+  "opened": "1924",
+  "area": "Edgware",
+  "prev": ""
+ },
+ "Edgware Road": {
+  "title": "Edgware Road tube station (Circle, District and Hammersmith & City lines)",
+  "borough": "City of Westminster",
+  "opened": "1863",
+  "area": "Paddington",
+  "prev": ""
+ },
+ "Elephant & Castle": {
+  "title": "Elephant & Castle tube station",
+  "borough": "Southwark",
+  "opened": "1890",
+  "area": "Elephant & Castle",
+  "prev": ""
+ },
+ "Elm Park": {
+  "title": "Elm Park tube station",
+  "borough": "Havering",
+  "opened": "1935",
+  "area": "Elm Park",
+  "prev": ""
+ },
+ "Embankment": {
+  "title": "Embankment tube station",
+  "borough": "City of Westminster",
+  "opened": "1870",
+  "area": "Charing Cross",
+  "prev": "{{ubli|Charing Cross [District]: 1870–1915 | Embankment [Bakerloo]: 1906–1914| Charing Cross (Embankment) [Bakerloo & Northern]: 1914–1915 | Charing Cross: 1915–1974 | Charing Cross Embankment: 1974–1976 }}"
+ },
+ "Epping": {
+  "title": "Epping tube station",
+  "borough": "Epping Forest",
+  "opened": "1949",
+  "area": "Epping, Essex",
+  "prev": ""
+ },
+ "Euston": {
+  "title": "Euston tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Camden Town",
+  "prev": "Melton Street: proposed before opening"
+ },
+ "Euston Square": {
+  "title": "Euston Square tube station",
+  "borough": "Camden",
+  "opened": "1863",
+  "area": "Camden Town",
+  "prev": "Gower Street: 1863–1909"
+ },
+ "Fairlop": {
+  "title": "Fairlop tube station",
+  "borough": "Redbridge",
+  "opened": "1948",
+  "area": "Fairlop",
+  "prev": ""
+ },
+ "Farringdon": {
+  "title": "Farringdon station",
+  "borough": "Islington",
+  "opened": "1863",
+  "area": "Clerkenwell",
+  "prev": "Farringdon Street: 1863–1922<br>Farringdon & High Holborn: 1922–1936"
+ },
+ "Finchley Central": {
+  "title": "Finchley Central tube station",
+  "borough": "Barnet",
+  "opened": "1940",
+  "area": "Finchley",
+  "prev": "{{ubli|Finchley & Hendon: 1867–1872 | Finchley: 1872–1896 | Finchley (Church End): 1896–1940 }}"
+ },
+ "Finchley Road": {
+  "title": "Finchley Road tube station",
+  "borough": "Camden",
+  "opened": "1879",
+  "area": "West Hampstead",
+  "prev": ""
+ },
+ "Finsbury Park": {
+  "title": "Finsbury Park station#London Underground",
+  "borough": "Islington",
+  "opened": "1906",
+  "area": "Finsbury Park (area)",
+  "prev": ""
+ },
+ "Fulham Broadway": {
+  "title": "Fulham Broadway tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1880",
+  "area": "Walham Green",
+  "prev": "Walham Green: 1880–1952"
+ },
+ "Gants Hill": {
+  "title": "Gants Hill tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Gants Hill",
+  "prev": "{{ubli | Ilford North: proposed before opening | Cranbrook: proposed before opening }}"
+ },
+ "Gloucester Road": {
+  "title": "Gloucester Road tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "South Kensington",
+  "prev": "Brompton (Gloucester Road): 1868–1907"
+ },
+ "Golders Green": {
+  "title": "Golders Green tube station",
+  "borough": "Barnet",
+  "opened": "1907",
+  "area": "Golders Green",
+  "prev": ""
+ },
+ "Goldhawk Road": {
+  "title": "Goldhawk Road tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1914",
+  "area": "Shepherd's Bush",
+  "prev": ""
+ },
+ "Goodge Street": {
+  "title": "Goodge Street tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Fitzrovia",
+  "prev": "Tottenham Court Road: 1907–1908"
+ },
+ "Grange Hill": {
+  "title": "Grange Hill tube station",
+  "borough": "Epping Forest",
+  "opened": "1948",
+  "area": "Chigwell",
+  "prev": ""
+ },
+ "Great Portland Street": {
+  "title": "Great Portland Street tube station",
+  "borough": "City of Westminster",
+  "opened": "1863",
+  "area": "Fitzrovia",
+  "prev": "{{ubli| Portland Road: 1863–1917 | Great Portland Street: 1917–1923 | Great Portland Street & Regent's Park: 1923–1933 }}"
+ },
+ "Greenford": {
+  "title": "Greenford station",
+  "borough": "Ealing",
+  "opened": "1947",
+  "area": "Greenford",
+  "prev": ""
+ },
+ "Green Park": {
+  "title": "Green Park tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "Westminster",
+  "prev": "Dover Street: 1906–1933"
+ },
+ "Gunnersbury": {
+  "title": "Gunnersbury station",
+  "borough": "Hounslow",
+  "opened": "1877",
+  "area": "Gunnersbury",
+  "prev": "Brentford Road: 1869–1871"
+ },
+ "Hainault": {
+  "title": "Hainault tube station",
+  "borough": "Redbridge",
+  "opened": "1948",
+  "area": "Hainault, London",
+  "prev": ""
+ },
+ "Hammersmith": {
+  "title": "Hammersmith tube station (Circle and Hammersmith & City lines)",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1864",
+  "area": "Hammersmith",
+  "prev": ""
+ },
+ "Hampstead": {
+  "title": "Hampstead tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Hampstead",
+  "prev": "Heath Street: proposed before opening"
+ },
+ "Hanger Lane": {
+  "title": "Hanger Lane tube station",
+  "borough": "Ealing",
+  "opened": "1947",
+  "area": "Hanger Hill",
+  "prev": ""
+ },
+ "Harlesden": {
+  "title": "Harlesden station",
+  "borough": "Brent",
+  "opened": "1917",
+  "area": "Harlesden",
+  "prev": ""
+ },
+ "Harrow & Wealdstone": {
+  "title": "Harrow & Wealdstone station",
+  "borough": "Harrow",
+  "opened": "1917",
+  "area": "Wealdstone",
+  "prev": "Harrow: 1837–1897"
+ },
+ "Harrow-on-the-Hill": {
+  "title": "Harrow-on-the-Hill station",
+  "borough": "Harrow",
+  "opened": "1880",
+  "area": "Harrow, London",
+  "prev": "Harrow: 1880–1894"
+ },
+ "Hatton Cross": {
+  "title": "Hatton Cross tube station",
+  "borough": "Hillingdon",
+  "opened": "1975",
+  "area": "Hatton, London",
+  "prev": ""
+ },
+ "Heathrow Terminals 2 & 3": {
+  "title": "Heathrow Terminals 2 & 3 tube station",
+  "borough": "Hillingdon",
+  "opened": "1977",
+  "area": "Heathrow Airport",
+  "prev": "{{ubli| Heathrow Central: 1976–1983 | Heathrow Central Terminals 1, 2, 3: 1983–1986 | Heathrow Terminals 1, 2, 3 (1986-2016) }}"
+ },
+ "Heathrow Terminal 4": {
+  "title": "Heathrow Terminal 4 tube station",
+  "borough": "Hillingdon",
+  "opened": "1986",
+  "area": "Heathrow Airport",
+  "prev": ""
+ },
+ "Heathrow Terminal 5": {
+  "title": "Heathrow Terminal 5 station",
+  "borough": "Hillingdon",
+  "opened": "2008",
+  "area": "Heathrow Airport",
+  "prev": ""
+ },
+ "Hendon Central": {
+  "title": "Hendon Central tube station",
+  "borough": "Barnet",
+  "opened": "1923",
+  "area": "Hendon",
+  "prev": ""
+ },
+ "High Barnet": {
+  "title": "High Barnet tube station",
+  "borough": "Barnet",
+  "opened": "1940",
+  "area": "Chipping Barnet",
+  "prev": ""
+ },
+ "Highbury & Islington": {
+  "title": "Highbury & Islington station",
+  "borough": "Islington",
+  "opened": "1968",
+  "area": "Highbury",
+  "prev": "Highbury: 1867–1922"
+ },
+ "Highgate": {
+  "title": "Highgate tube station",
+  "borough": "Haringey",
+  "opened": "1941",
+  "area": "Highgate",
+  "prev": ""
+ },
+ "High Street Kensington": {
+  "title": "High Street Kensington tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "Kensington",
+  "prev": "Kensington: proposed before opening"
+ },
+ "Hillingdon": {
+  "title": "Hillingdon tube station",
+  "borough": "Hillingdon",
+  "opened": "1923",
+  "area": "Hillingdon",
+  "prev": "{{ubli|Hillingdon: 1923–1934 | Hillingdon (Swakeleys): 1934, suffix gradually dropped }}"
+ },
+ "Holborn": {
+  "title": "Holborn tube station",
+  "borough": "Camden",
+  "opened": "1906",
+  "area": "Holborn",
+  "prev": "{{ubli | Holborn: 1906–1933 | Holborn (Kingsway): 1933, suffix gradually dropped }}"
+ },
+ "Holland Park": {
+  "title": "Holland Park tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1900",
+  "area": "Holland Park",
+  "prev": "Lansdown Road: proposed before opening"
+ },
+ "Holloway Road": {
+  "title": "Holloway Road tube station",
+  "borough": "Islington",
+  "opened": "1906",
+  "area": "Holloway, London",
+  "prev": "Holloway: proposed before opening"
+ },
+ "Hornchurch": {
+  "title": "Hornchurch tube station",
+  "borough": "Havering",
+  "opened": "1902",
+  "area": "Hornchurch",
+  "prev": ""
+ },
+ "Hounslow Central": {
+  "title": "Hounslow Central tube station",
+  "borough": "Hounslow",
+  "opened": "1886",
+  "area": "Hounslow",
+  "prev": "Heston Hounslow: 1886–1925"
+ },
+ "Hounslow East": {
+  "title": "Hounslow East tube station",
+  "borough": "Hounslow",
+  "opened": "1909",
+  "area": "Hounslow",
+  "prev": "Hounslow Town: 1909–1925"
+ },
+ "Hounslow West": {
+  "title": "Hounslow West tube station",
+  "borough": "Hounslow",
+  "opened": "1884",
+  "area": "Hounslow",
+  "prev": "Hounslow Barracks: 1884–1925"
+ },
+ "Hyde Park Corner": {
+  "title": "Hyde Park Corner tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "Knightsbridge",
+  "prev": ""
+ },
+ "Ickenham": {
+  "title": "Ickenham tube station",
+  "borough": "Hillingdon",
+  "opened": "1905",
+  "area": "Ickenham",
+  "prev": ""
+ },
+ "Kennington": {
+  "title": "Kennington tube station",
+  "borough": "Southwark",
+  "opened": "1890",
+  "area": "Kennington",
+  "prev": "New Street: proposed before opening"
+ },
+ "Kensal Green": {
+  "title": "Kensal Green station",
+  "borough": "Brent",
+  "opened": "1916",
+  "area": "Kensal Green",
+  "prev": ""
+ },
+ "Kensington (Olympia)": {
+  "title": "Kensington (Olympia) station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1864",
+  "area": "Kensington",
+  "prev": "{{ubli| Kensington: 1844–1868 | Kensington (Addison Road): 1868–1946 }}"
+ },
+ "Kentish Town": {
+  "title": "Kentish Town station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Kentish Town",
+  "prev": ""
+ },
+ "Kenton": {
+  "title": "Kenton station",
+  "borough": "Brent",
+  "opened": "1917",
+  "area": "Kenton, London",
+  "prev": ""
+ },
+ "Kew Gardens": {
+  "title": "Kew Gardens station (London)",
+  "borough": "Richmond",
+  "opened": "1877",
+  "area": "Kew",
+  "prev": ""
+ },
+ "Kilburn": {
+  "title": "Kilburn tube station",
+  "borough": "Brent",
+  "opened": "1879",
+  "area": "Kilburn, London",
+  "prev": "Kilburn and Brondesbury: 1879–1950"
+ },
+ "Kilburn Park": {
+  "title": "Kilburn Park tube station",
+  "borough": "Brent",
+  "opened": "1915",
+  "area": "Kilburn, London",
+  "prev": ""
+ },
+ "Kingsbury": {
+  "title": "Kingsbury tube station",
+  "borough": "Brent",
+  "opened": "1932",
+  "area": "Kingsbury, London",
+  "prev": ""
+ },
+ "King's Cross St Pancras": {
+  "title": "King's Cross St Pancras tube station",
+  "borough": "Camden",
+  "opened": "1863",
+  "area": "King's Cross, London",
+  "prev": "{{ubli| King's Cross [Metropolitan]: 1863–1925 | King's Cross & St. Pancras [Metropolitan]: 1925–1933 | King's Cross [Piccadilly]: 1906–1927 | King's Cross for St. Pancras [Piccadilly]: 1927–1933 | King's Cross for St. Pancras [Northern]: 1907–1933 }}"
+ },
+ "Knightsbridge": {
+  "title": "Knightsbridge tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1906",
+  "area": "Knightsbridge, London",
+  "prev": "Sloane Street: proposed before opening"
+ },
+ "Ladbroke Grove": {
+  "title": "Ladbroke Grove tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1864",
+  "area": "Ladbroke Grove",
+  "prev": "{{ubli| Notting Hill: 1864–1880 | Notting Hill & Ladbroke Grove: 1880–1919 | Ladbroke Grove (North Kensington): 1919–1938 }}"
+ },
+ "Lambeth North": {
+  "title": "Lambeth North tube station",
+  "borough": "Lambeth",
+  "opened": "1906",
+  "area": "Lambeth",
+  "prev": "{{ubli| Kennington Road (1906) | Westminster Bridge Road: 1906–1917 }}"
+ },
+ "Lancaster Gate": {
+  "title": "Lancaster Gate tube station",
+  "borough": "City of Westminster",
+  "opened": "1900",
+  "area": "Paddington",
+  "prev": "Westbourne: proposed before opening"
+ },
+ "Latimer Road": {
+  "title": "Latimer Road tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "North Kensington",
+  "prev": ""
+ },
+ "Leicester Square": {
+  "title": "Leicester Square tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "West End of London",
+  "prev": "Cranbourn Street: proposed before opening"
+ },
+ "Leyton": {
+  "title": "Leyton tube station",
+  "borough": "Waltham Forest",
+  "opened": "1947",
+  "area": "Leyton",
+  "prev": "Low Leyton: 1856–1868"
+ },
+ "Leytonstone": {
+  "title": "Leytonstone tube station",
+  "borough": "Waltham Forest",
+  "opened": "1947",
+  "area": "Leytonstone",
+  "prev": ""
+ },
+ "Liverpool Street": {
+  "title": "Liverpool Street station#Underground stations",
+  "borough": "City of London",
+  "opened": "1875",
+  "area": "Bishopsgate",
+  "prev": "Bishopsgate: 1875–1909"
+ },
+ "London Bridge": {
+  "title": "London Bridge station#London Underground",
+  "borough": "Southwark",
+  "opened": "1900",
+  "area": "Southwark",
+  "prev": ""
+ },
+ "Loughton": {
+  "title": "Loughton tube station",
+  "borough": "Epping Forest",
+  "opened": "1948",
+  "area": "Loughton",
+  "prev": ""
+ },
+ "Maida Vale": {
+  "title": "Maida Vale tube station",
+  "borough": "City of Westminster",
+  "opened": "1915",
+  "area": "Maida Vale",
+  "prev": "Elgin Avenue: proposed before opening"
+ },
+ "Manor House": {
+  "title": "Manor House tube station",
+  "borough": "Hackney",
+  "opened": "1932",
+  "area": "Manor House, London",
+  "prev": ""
+ },
+ "Mansion House": {
+  "title": "Mansion House tube station",
+  "borough": "City of London",
+  "opened": "1871",
+  "area": "Castle Baynard",
+  "prev": ""
+ },
+ "Marble Arch": {
+  "title": "Marble Arch tube station",
+  "borough": "City of Westminster",
+  "opened": "1900",
+  "area": "Marylebone",
+  "prev": ""
+ },
+ "Marylebone": {
+  "title": "Marylebone station#London Underground",
+  "borough": "City of Westminster",
+  "opened": "1907",
+  "area": "Marylebone",
+  "prev": "Great Central: 1907–1917"
+ },
+ "Mile End": {
+  "title": "Mile End tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1902",
+  "area": "Mile End",
+  "prev": ""
+ },
+ "Mill Hill East": {
+  "title": "Mill Hill East tube station",
+  "borough": "Barnet",
+  "opened": "1941",
+  "area": "Mill Hill",
+  "prev": "{{ubli| Mill Hill: 1867–1928 | Bittacy Hill: proposed 1940 }}"
+ },
+ "Monument": {
+  "title": "Bank and Monument stations",
+  "borough": "City of London",
+  "opened": "1884",
+  "area": "City of London",
+  "prev": "{{ubli| King William Street: proposed before opening | East Cheap: 1884 }}"
+ },
+ "Moorgate": {
+  "title": "Moorgate station",
+  "borough": "City of London",
+  "opened": "1865",
+  "area": "Moorgate",
+  "prev": "Moorgate Street [Metropolitan]: 1865–1924"
+ },
+ "Moor Park": {
+  "title": "Moor Park tube station",
+  "borough": "",
+  "opened": "1910",
+  "area": "Moor Park, Hertfordshire",
+  "prev": "{{ubli| Sandy Lodge: 1910–1923 | Moor Park & Sandy Lodge: 1923–1950 }}"
+ },
+ "Morden": {
+  "title": "Morden tube station",
+  "borough": "Merton",
+  "opened": "1926",
+  "area": "Morden",
+  "prev": "North Morden: proposed before opening"
+ },
+ "Mornington Crescent": {
+  "title": "Mornington Crescent tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Camden Town",
+  "prev": "Seymour Street: proposed before opening"
+ },
+ "Neasden": {
+  "title": "Neasden tube station",
+  "borough": "Brent",
+  "opened": "1880",
+  "area": "Neasden",
+  "prev": "Kingsbury & Neasden: 1880–1910<br>Neasden & Kingsbury: 1910–1932"
+ },
+ "Newbury Park": {
+  "title": "Newbury Park tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Newbury Park, London",
+  "prev": ""
+ },
+ "Nine Elms": {
+  "title": "Nine Elms tube station",
+  "borough": "Wandsworth",
+  "opened": "2021",
+  "area": "Nine Elms",
+  "prev": ""
+ },
+ "North Acton": {
+  "title": "North Acton tube station",
+  "borough": "Ealing",
+  "opened": "1923",
+  "area": "Acton, London",
+  "prev": ""
+ },
+ "North Ealing": {
+  "title": "North Ealing tube station",
+  "borough": "Ealing",
+  "opened": "1903",
+  "area": "Ealing",
+  "prev": ""
+ },
+ "North Greenwich": {
+  "title": "North Greenwich tube station",
+  "borough": "Greenwich",
+  "opened": "1999",
+  "area": "Greenwich Peninsula",
+  "prev": ""
+ },
+ "North Harrow": {
+  "title": "North Harrow tube station",
+  "borough": "Harrow",
+  "opened": "1915",
+  "area": "Harrow, London",
+  "prev": ""
+ },
+ "North Wembley": {
+  "title": "North Wembley station",
+  "borough": "Brent",
+  "opened": "1917",
+  "area": "North Wembley",
+  "prev": ""
+ },
+ "Northfields": {
+  "title": "Northfields tube station",
+  "borough": "Ealing",
+  "opened": "1908",
+  "area": "Northfields, London",
+  "prev": "{{ubli| Northfield Halt: 1908–1911 | Northfields & Little Ealing: 1911–1932 }}"
+ },
+ "Northolt": {
+  "title": "Northolt tube station",
+  "borough": "Ealing",
+  "opened": "1948",
+  "area": "Northolt",
+  "prev": ""
+ },
+ "Northwick Park": {
+  "title": "Northwick Park tube station",
+  "borough": "Brent",
+  "opened": "1923",
+  "area": "Kenton, London",
+  "prev": "Northwick Park & Kenton: 1923–1933"
+ },
+ "Northwood": {
+  "title": "Northwood tube station",
+  "borough": "Hillingdon",
+  "opened": "1887",
+  "area": "Northwood, London",
+  "prev": ""
+ },
+ "Northwood Hills": {
+  "title": "Northwood Hills tube station",
+  "borough": "Hillingdon",
+  "opened": "1933",
+  "area": "Northwood, London",
+  "prev": ""
+ },
+ "Notting Hill Gate": {
+  "title": "Notting Hill Gate tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "Notting Hill",
+  "prev": ""
+ },
+ "Oakwood": {
+  "title": "Oakwood tube station",
+  "borough": "Enfield",
+  "opened": "1933",
+  "area": "Oakwood, London",
+  "prev": "{{ubli| Enfield West: 1933–1934 | Enfield West (Oakwood): 1934–1946 }}"
+ },
+ "Old Street": {
+  "title": "Old Street station",
+  "borough": "Islington",
+  "opened": "1901",
+  "area": "St Luke's, London",
+  "prev": ""
+ },
+ "Osterley": {
+  "title": "Osterley tube station",
+  "borough": "Hounslow",
+  "opened": "1883",
+  "area": "Osterley",
+  "prev": "Osterley & Spring Grove: 1883–1934"
+ },
+ "Oval": {
+  "title": "Oval tube station",
+  "borough": "Lambeth",
+  "opened": "1890",
+  "area": "Oval, London",
+  "prev": "{{ubli| Kennington Oval: proposed before opening | The Oval: 1890–1894 }}"
+ },
+ "Oxford Circus": {
+  "title": "Oxford Circus tube station",
+  "borough": "City of Westminster",
+  "opened": "1900",
+  "area": "West End of London",
+  "prev": ""
+ },
+ "Paddington": {
+  "title": "Paddington tube station (Circle and Hammersmith & City lines)",
+  "borough": "City of Westminster",
+  "opened": "1863",
+  "area": "Paddington",
+  "prev": "Paddington (Bishop's Road): 1863–1933"
+ },
+ "Park Royal": {
+  "title": "Park Royal tube station",
+  "borough": "Ealing",
+  "opened": "1903",
+  "area": "Park Royal",
+  "prev": "{{ubli| Park Royal & Tywford Abbey: 1903–1931 | Park Royal: 1931–1936 | Park Royal (Hanger Hill): 1936–1947 }}"
+ },
+ "Parsons Green": {
+  "title": "Parsons Green tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1880",
+  "area": "Parsons Green",
+  "prev": ""
+ },
+ "Perivale": {
+  "title": "Perivale tube station",
+  "borough": "Ealing",
+  "opened": "1947",
+  "area": "Perivale",
+  "prev": "Perivale Halt: 1904–1947"
+ },
+ "Piccadilly Circus": {
+  "title": "Piccadilly Circus tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "West End of London",
+  "prev": ""
+ },
+ "Pimlico": {
+  "title": "Pimlico tube station",
+  "borough": "City of Westminster",
+  "opened": "1972",
+  "area": "Pimlico",
+  "prev": ""
+ },
+ "Pinner": {
+  "title": "Pinner tube station",
+  "borough": "Harrow",
+  "opened": "1885",
+  "area": "Pinner, London",
+  "prev": ""
+ },
+ "Plaistow": {
+  "title": "Plaistow tube station",
+  "borough": "Newham",
+  "opened": "1902",
+  "area": "Plaistow, Newham",
+  "prev": ""
+ },
+ "Preston Road": {
+  "title": "Preston Road tube station",
+  "borough": "Brent",
+  "opened": "1908",
+  "area": "Preston, London",
+  "prev": ""
+ },
+ "Putney Bridge": {
+  "title": "Putney Bridge tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1880",
+  "area": "Fulham",
+  "prev": "{{ubli| Putney Bridge & Fulham: 1880–1902 | Putney Bridge & Hurlingham: 1902–1932 }}"
+ },
+ "Queen's Park": {
+  "title": "Queen's Park (London) station",
+  "borough": "Brent",
+  "opened": "1915",
+  "area": "Queen's Park, London",
+  "prev": "Queen's Park (West Kilburn): 1879–1915"
+ },
+ "Queensbury": {
+  "title": "Queensbury tube station",
+  "borough": "Brent",
+  "opened": "1934",
+  "area": "Queensbury, London",
+  "prev": ""
+ },
+ "Queensway": {
+  "title": "Queensway tube station",
+  "borough": "City of Westminster",
+  "opened": "1900",
+  "area": "Bayswater",
+  "prev": "Queen's Road: 1900–1946"
+ },
+ "Ravenscourt Park": {
+  "title": "Ravenscourt Park tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1877",
+  "area": "Hammersmith",
+  "prev": "Shaftesbury Road: 1877–1888"
+ },
+ "Rayners Lane": {
+  "title": "Rayners Lane tube station",
+  "borough": "Harrow",
+  "opened": "1906",
+  "area": "Rayners Lane",
+  "prev": ""
+ },
+ "Redbridge": {
+  "title": "Redbridge tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Redbridge, London",
+  "prev": "{{ubli| Ilford West: proposed before opening | Red House: proposed before opening }}"
+ },
+ "Regent's Park": {
+  "title": "Regent's Park tube station",
+  "borough": "City of Westminster",
+  "opened": "1906",
+  "area": "Marylebone",
+  "prev": ""
+ },
+ "Richmond": {
+  "title": "Richmond station (London)",
+  "borough": "Richmond",
+  "opened": "1877",
+  "area": "Richmond, London",
+  "prev": ""
+ },
+ "Rickmansworth": {
+  "title": "Rickmansworth station",
+  "borough": "",
+  "opened": "1887",
+  "area": "Rickmansworth",
+  "prev": ""
+ },
+ "Roding Valley": {
+  "title": "Roding Valley tube station",
+  "borough": "Epping Forest",
+  "opened": "1948",
+  "area": "Buckhurst Hill",
+  "prev": ""
+ },
+ "Royal Oak": {
+  "title": "Royal Oak tube station",
+  "borough": "City of Westminster",
+  "opened": "1871",
+  "area": "Westbourne, London",
+  "prev": ""
+ },
+ "Ruislip": {
+  "title": "Ruislip tube station",
+  "borough": "Hillingdon",
+  "opened": "1904",
+  "area": "Ruislip",
+  "prev": ""
+ },
+ "Ruislip Gardens": {
+  "title": "Ruislip Gardens tube station",
+  "borough": "Hillingdon",
+  "opened": "1948",
+  "area": "Ruislip",
+  "prev": ""
+ },
+ "Ruislip Manor": {
+  "title": "Ruislip Manor tube station",
+  "borough": "Hillingdon",
+  "opened": "1912",
+  "area": "Ruislip",
+  "prev": ""
+ },
+ "Russell Square": {
+  "title": "Russell Square tube station",
+  "borough": "Camden",
+  "opened": "1906",
+  "area": "Bloomsbury",
+  "prev": ""
+ },
+ "St James's Park": {
+  "title": "St James's Park tube station",
+  "borough": "City of Westminster",
+  "opened": "1868",
+  "area": "St James's, London",
+  "prev": ""
+ },
+ "St John's Wood": {
+  "title": "St John's Wood tube station",
+  "borough": "City of Westminster",
+  "opened": "1939",
+  "area": "St John's Wood",
+  "prev": "Acacia Road: proposed before opening"
+ },
+ "St Paul's": {
+  "title": "St Paul's tube station",
+  "borough": "City of London",
+  "opened": "1900",
+  "area": "Smithfield, London",
+  "prev": "{{ubli| Newgate Street: proposed before opening | Post Office: 1900–1937 }}"
+ },
+ "Seven Sisters": {
+  "title": "Seven Sisters station",
+  "borough": "Haringey",
+  "opened": "1968",
+  "area": "Seven Sisters, London",
+  "prev": ""
+ },
+ "Shepherd's Bush": {
+  "title": "Shepherd's Bush tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1900",
+  "area": "Shepherd's Bush",
+  "prev": ""
+ },
+ "Shepherd's Bush Market": {
+  "title": "Shepherd's Bush Market tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1864",
+  "area": "Shepherd's Bush",
+  "prev": "Shepherd's Bush: 1864–2008"
+ },
+ "Sloane Square": {
+  "title": "Sloane Square tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "Chelsea, London",
+  "prev": ""
+ },
+ "Snaresbrook": {
+  "title": "Snaresbrook tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Snaresbrook",
+  "prev": "Snaresbrook & Wanstead: 1856–1947"
+ },
+ "South Ealing": {
+  "title": "South Ealing tube station",
+  "borough": "Ealing",
+  "opened": "1883",
+  "area": "Ealing",
+  "prev": ""
+ },
+ "South Harrow": {
+  "title": "South Harrow tube station",
+  "borough": "Harrow",
+  "opened": "1903",
+  "area": "Harrow, London",
+  "prev": ""
+ },
+ "South Kensington": {
+  "title": "South Kensington tube station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1868",
+  "area": "South Kensington",
+  "prev": ""
+ },
+ "South Kenton": {
+  "title": "South Kenton station",
+  "borough": "Brent",
+  "opened": "1933",
+  "area": "Kenton, London",
+  "prev": ""
+ },
+ "South Ruislip": {
+  "title": "South Ruislip station",
+  "borough": "Hillingdon",
+  "opened": "1948",
+  "area": "South Ruislip",
+  "prev": "{{ubli| Northolt Junction: 1908–1932 | South Ruislip & Northolt Junction: 1932–1947 }}"
+ },
+ "South Wimbledon": {
+  "title": "South Wimbledon tube station",
+  "borough": "Merton",
+  "opened": "1926",
+  "area": "Wimbledon, London",
+  "prev": "{{ubli| Merton Grove: proposed before opening | South Wimbledon: 1926–1928 | South Wimbledon (Merton): 1928, suffix gradually dropped }}"
+ },
+ "South Woodford": {
+  "title": "South Woodford tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "South Woodford",
+  "prev": "{{ubli| George Lane: 1856–1937 | South Woodford (George Lane): 1937–1950 }}"
+ },
+ "Southfields": {
+  "title": "Southfields tube station",
+  "borough": "Wandsworth",
+  "opened": "1889",
+  "area": "Southfields",
+  "prev": ""
+ },
+ "Southgate": {
+  "title": "Southgate tube station",
+  "borough": "Enfield",
+  "opened": "1933",
+  "area": "Southgate, London",
+  "prev": "Chase Side: proposed before opening"
+ },
+ "Southwark": {
+  "title": "Southwark tube station",
+  "borough": "Southwark",
+  "opened": "1999",
+  "area": "Bankside",
+  "prev": ""
+ },
+ "Stamford Brook": {
+  "title": "Stamford Brook tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1912",
+  "area": "Chiswick",
+  "prev": ""
+ },
+ "Stanmore": {
+  "title": "Stanmore tube station",
+  "borough": "Harrow",
+  "opened": "1932",
+  "area": "Stanmore",
+  "prev": ""
+ },
+ "Stepney Green": {
+  "title": "Stepney Green tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1902",
+  "area": "Stepney",
+  "prev": ""
+ },
+ "Stockwell": {
+  "title": "Stockwell tube station",
+  "borough": "Lambeth",
+  "opened": "1890",
+  "area": "Stockwell",
+  "prev": ""
+ },
+ "Stonebridge Park": {
+  "title": "Stonebridge Park station",
+  "borough": "Brent",
+  "opened": "1917",
+  "area": "Tokyngton",
+  "prev": ""
+ },
+ "Stratford": {
+  "title": "Stratford station",
+  "borough": "Newham",
+  "opened": "1946",
+  "area": "Stratford, London",
+  "prev": ""
+ },
+ "Sudbury Hill": {
+  "title": "Sudbury Hill tube station",
+  "borough": "Harrow",
+  "opened": "1903",
+  "area": "Sudbury, London",
+  "prev": ""
+ },
+ "Sudbury Town": {
+  "title": "Sudbury Town tube station",
+  "borough": "Brent",
+  "opened": "1903",
+  "area": "Sudbury, London",
+  "prev": ""
+ },
+ "Swiss Cottage": {
+  "title": "Swiss Cottage tube station",
+  "borough": "Camden",
+  "opened": "1939",
+  "area": "Swiss Cottage",
+  "prev": ""
+ },
+ "Temple": {
+  "title": "Temple tube station",
+  "borough": "City of Westminster",
+  "opened": "1870",
+  "area": "Temple, London",
+  "prev": ""
+ },
+ "Theydon Bois": {
+  "title": "Theydon Bois tube station",
+  "borough": "Epping Forest",
+  "opened": "1949",
+  "area": "Theydon Bois",
+  "prev": "Theydon: 1865"
+ },
+ "Tooting Bec": {
+  "title": "Tooting Bec tube station",
+  "borough": "Wandsworth",
+  "opened": "1926",
+  "area": "Tooting",
+  "prev": "Trinity Road (Tooting Bec): 1926–1950"
+ },
+ "Tooting Broadway": {
+  "title": "Tooting Broadway tube station",
+  "borough": "Wandsworth",
+  "opened": "1926",
+  "area": "Tooting",
+  "prev": ""
+ },
+ "Tottenham Court Road": {
+  "title": "Tottenham Court Road station",
+  "borough": "Camden",
+  "opened": "1900",
+  "area": "St Giles, London",
+  "prev": "Oxford Street [Northern]: 1907–1908"
+ },
+ "Tottenham Hale": {
+  "title": "Tottenham Hale station",
+  "borough": "Haringey",
+  "opened": "1968",
+  "area": "Tottenham Hale",
+  "prev": ""
+ },
+ "Totteridge & Whetstone": {
+  "title": "Totteridge & Whetstone tube station",
+  "borough": "Barnet",
+  "opened": "1940",
+  "area": "Whetstone, London",
+  "prev": "Totteridge: 1872–1874"
+ },
+ "Tower Hill": {
+  "title": "Tower Hill tube station",
+  "borough": "Tower Hamlets",
+  "opened": "1882",
+  "area": "Tower Hill",
+  "prev": "{{ubli| Tower of London: 1882–1884 | Mark Lane: 1884–1946 }}"
+ },
+ "Tufnell Park": {
+  "title": "Tufnell Park tube station",
+  "borough": "Islington",
+  "opened": "1907",
+  "area": "Tufnell Park",
+  "prev": ""
+ },
+ "Turnham Green": {
+  "title": "Turnham Green tube station",
+  "borough": "Hounslow",
+  "opened": "1877",
+  "area": "Chiswick",
+  "prev": ""
+ },
+ "Turnpike Lane": {
+  "title": "Turnpike Lane tube station",
+  "borough": "Haringey",
+  "opened": "1932",
+  "area": "Noel Park",
+  "prev": "{{ubli| Harringay: proposed before opening | Ducketts Green: proposed before opening }}"
+ },
+ "Upminster": {
+  "title": "Upminster station",
+  "borough": "Havering",
+  "opened": "1902",
+  "area": "Upminster",
+  "prev": ""
+ },
+ "Upminster Bridge": {
+  "title": "Upminster Bridge tube station",
+  "borough": "Havering",
+  "opened": "1934",
+  "area": "Upminster Bridge",
+  "prev": ""
+ },
+ "Upney": {
+  "title": "Upney tube station",
+  "borough": "Barking and Dagenham",
+  "opened": "1932",
+  "area": "Barking, London",
+  "prev": ""
+ },
+ "Upton Park": {
+  "title": "Upton Park tube station",
+  "borough": "Newham",
+  "opened": "1902",
+  "area": "Upton Park, London",
+  "prev": ""
+ },
+ "Uxbridge": {
+  "title": "Uxbridge tube station",
+  "borough": "Hillingdon",
+  "opened": "1904",
+  "area": "Uxbridge",
+  "prev": ""
+ },
+ "Vauxhall": {
+  "title": "Vauxhall station",
+  "borough": "Lambeth",
+  "opened": "1971",
+  "area": "Vauxhall",
+  "prev": ""
+ },
+ "Victoria": {
+  "title": "London Victoria station#London Underground station",
+  "borough": "City of Westminster",
+  "opened": "1868",
+  "area": "Belgravia",
+  "prev": ""
+ },
+ "Walthamstow Central": {
+  "title": "Walthamstow Central station",
+  "borough": "Waltham Forest",
+  "opened": "1968",
+  "area": "Walthamstow",
+  "prev": ""
+ },
+ "Wanstead": {
+  "title": "Wanstead tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Wanstead",
+  "prev": ""
+ },
+ "Warren Street": {
+  "title": "Warren Street tube station",
+  "borough": "Camden",
+  "opened": "1907",
+  "area": "Fitzrovia",
+  "prev": "Euston Road: 1907–1908"
+ },
+ "Warwick Avenue": {
+  "title": "Warwick Avenue tube station",
+  "borough": "City of Westminster",
+  "opened": "1915",
+  "area": "Little Venice",
+  "prev": "Warrington Crescent: proposed before opening"
+ },
+ "Waterloo": {
+  "title": "Waterloo tube station",
+  "borough": "Lambeth",
+  "opened": "1906",
+  "area": "Waterloo, London",
+  "prev": ""
+ },
+ "Watford": {
+  "title": "Watford tube station",
+  "borough": "Watford",
+  "opened": "1925",
+  "area": "Cassiobury",
+  "prev": ""
+ },
+ "Wembley Central": {
+  "title": "Wembley Central station",
+  "borough": "Brent",
+  "opened": "1917",
+  "area": "Wembley",
+  "prev": "{{ubli| Sudbury: 1842–1882 | Sudbury & Wembley: 1882–1910 | Wembley for Sudbury: 1910–1948 }}"
+ },
+ "Wembley Park": {
+  "title": "Wembley Park tube station",
+  "borough": "Brent",
+  "opened": "1894",
+  "area": "Wembley Park",
+  "prev": ""
+ },
+ "West Acton": {
+  "title": "West Acton tube station",
+  "borough": "Ealing",
+  "opened": "1923",
+  "area": "Acton, London",
+  "prev": ""
+ },
+ "West Brompton": {
+  "title": "West Brompton station",
+  "borough": "Kensington and Chelsea",
+  "opened": "1869",
+  "area": "West Brompton",
+  "prev": "Richmond Road: proposed before opening"
+ },
+ "West Finchley": {
+  "title": "West Finchley tube station",
+  "borough": "Barnet",
+  "opened": "1940",
+  "area": "Finchley",
+  "prev": ""
+ },
+ "West Ham": {
+  "title": "West Ham station",
+  "borough": "Newham",
+  "opened": "1902",
+  "area": "West Ham",
+  "prev": "{{ubli| West Ham: 1901–1924 | West Ham (Manor Road): 1924–1969 }}"
+ },
+ "West Hampstead": {
+  "title": "West Hampstead tube station",
+  "borough": "Camden",
+  "opened": "1879",
+  "area": "West Hampstead",
+  "prev": ""
+ },
+ "West Harrow": {
+  "title": "West Harrow tube station",
+  "borough": "Harrow",
+  "opened": "1913",
+  "area": "Harrow, London",
+  "prev": ""
+ },
+ "West Kensington": {
+  "title": "West Kensington tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1874",
+  "area": "West Kensington",
+  "prev": "North End (Fulham): 1874–1877"
+ },
+ "West Ruislip": {
+  "title": "West Ruislip station",
+  "borough": "Hillingdon",
+  "opened": "1948",
+  "area": "Ruislip",
+  "prev": "{{ubli| Ruislip & Ickenham: 1906–1947 | West Ruislip (for Ickenham): 1947, suffix gradually dropped }}"
+ },
+ "Westbourne Park": {
+  "title": "Westbourne Park tube station",
+  "borough": "City of Westminster",
+  "opened": "1866",
+  "area": "Notting Hill",
+  "prev": ""
+ },
+ "Westminster": {
+  "title": "Westminster tube station",
+  "borough": "City of Westminster",
+  "opened": "1868",
+  "area": "Westminster",
+  "prev": "Westminster Bridge: 1868–1907"
+ },
+ "White City": {
+  "title": "White City tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "1947",
+  "area": "White City, London",
+  "prev": ""
+ },
+ "Whitechapel": {
+  "title": "Whitechapel station",
+  "borough": "Tower Hamlets",
+  "opened": "1884",
+  "area": "Whitechapel",
+  "prev": "Whitechapel (Mile End): 1884–1901"
+ },
+ "Willesden Green": {
+  "title": "Willesden Green tube station",
+  "borough": "Brent",
+  "opened": "1879",
+  "area": "Willesden",
+  "prev": ""
+ },
+ "Willesden Junction": {
+  "title": "Willesden Junction station",
+  "borough": "Brent",
+  "opened": "1915",
+  "area": "Harlesden",
+  "prev": ""
+ },
+ "Wimbledon": {
+  "title": "Wimbledon station",
+  "borough": "Merton",
+  "opened": "1889",
+  "area": "Wimbledon, London",
+  "prev": ""
+ },
+ "Wimbledon Park": {
+  "title": "Wimbledon Park tube station",
+  "borough": "Merton",
+  "opened": "1889",
+  "area": "Wimbledon, London",
+  "prev": ""
+ },
+ "Wood Green": {
+  "title": "Wood Green tube station",
+  "borough": "Haringey",
+  "opened": "1932",
+  "area": "Wood Green",
+  "prev": "Lordship Lane: proposed before opening"
+ },
+ "Wood Lane": {
+  "title": "Wood Lane tube station",
+  "borough": "Hammersmith and Fulham",
+  "opened": "2008",
+  "area": "Shepherd's Bush",
+  "prev": ""
+ },
+ "Woodford": {
+  "title": "Woodford tube station",
+  "borough": "Redbridge",
+  "opened": "1947",
+  "area": "Woodford, London",
+  "prev": ""
+ },
+ "Woodside Park": {
+  "title": "Woodside Park tube station",
+  "borough": "Barnet",
+  "opened": "1940",
+  "area": "List of London railway stations",
+  "prev": "}\n\n==Fictional stations==\n{{further|List of fictional rapid transit stations}}\n\n==See also==\n{|align=right"
+ }
+}
