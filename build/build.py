@@ -66,11 +66,13 @@ for f in sorted(glob.glob(SP + "stories_*.py")):
     for k, v in getattr(m, "STORIES", {}).items():
         assert k not in STORIES, ("duplicate story", k, f)
         STORIES[k] = v
-    OVERRIDES.update(getattr(m, "OVERRIDE", {}))
-for k, text in OVERRIDES.items():   # richer texts replace the first version (head and links stay)
-    assert k in STORIES, ("override for unknown station", k)
-    head, text = text if isinstance(text, tuple) else (STORIES[k][0], text)
-    STORIES[k] = (head, text, STORIES[k][2])
+    OVERRIDES.setdefault(f, {}).update(getattr(m, "OVERRIDE", {}))
+    AREA_FIX = getattr(m, "AREA_FIX", None) or globals().get("AREA_FIX", {})
+for f in sorted(OVERRIDES):          # corrections and richer texts, applied in file order (head/text None = keep)
+    for k, v in OVERRIDES[f].items():
+        assert k in STORIES, ("override for unknown station", k, f)
+        head, text = v if isinstance(v, tuple) else (None, v)
+        STORIES[k] = (head or STORIES[k][0], text or STORIES[k][1], STORIES[k][2])
 LONDONIST = {"bakerloo": "https://londonist.com/london/transport/bakerloo_etymology",
  "central": "https://londonist.com/london/transport/how-the-central-line-stations-got-their-names",
  "circle": "https://londonist.com/london/transport/how-the-circle-line-stations-got-their-names",
@@ -103,6 +105,7 @@ for raw, st in NET["stations"].items():
     else:
         b = NEWB[k]; title = NEWT.get(k, "")
         q = BOROUGH_FIX.get(b["district"], b["district"]) if b["region"] == "London" else (b["county"] or COUNTY.get(b["district"], b["district"]))
+    q = AREA_FIX.get(k, q)
     head, text, extra = STORIES.get(k, ("", "", []))
     if not head: missing.append(k)
     links = [{"t": t, "s": "Wikipedia", "u": wurl(t)} for t in extra]
@@ -123,6 +126,7 @@ for lang in TR:
     for p in sorted(glob.glob(SP + f"tr_{lang}*.py")):
         for k, v in load(p).TR.items():
             assert k in STOPS, ("translation for unknown station", lang, k)
+            v = [x if x is not None else TR[lang][k][i] for i, x in enumerate(v)]   # None = keep the earlier translation
             TR[lang][k] = [fr_typo(x) for x in v] if lang == "fr" else list(v)
 GAME = []
 if os.path.exists(SP + "quiz.py"):

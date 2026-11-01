@@ -5,10 +5,13 @@ SP = os.path.dirname(os.path.abspath(__file__)) + "/"
 def load(p):
     s = importlib.util.spec_from_file_location(os.path.basename(p)[:-3], p); m = importlib.util.module_from_spec(s); s.loader.exec_module(m); return m
 S = {}
-OV = {}
+OV = []
 for f in sorted(glob.glob(SP + "stories_*.py")):
-    m = load(f); S.update(getattr(m, "STORIES", {})); OV.update(getattr(m, "OVERRIDE", {}))
-for k, t in OV.items(): S[k] = (t[0], t[1], S[k][2]) if isinstance(t, tuple) else (S[k][0], t, S[k][2])
+    m = load(f); S.update(getattr(m, "STORIES", {})); OV.append(getattr(m, "OVERRIDE", {}))
+for ov in OV:   # same rule as build.py: overrides in file order, head/text None = keep
+    for k, t in ov.items():
+        h, x = t if isinstance(t, tuple) else (None, t)
+        S[k] = (h or S[k][0], x or S[k][1], S[k][2])
 qz = load(SP + "quiz.py"); err = []; ids = set(); stops = []
 for q in qz.Q:
     i = q["id"]; assert i not in ids, i; ids.add(i)
