@@ -159,7 +159,7 @@ html = f'''<!doctype html>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>Stop Stories · London</title>
-<meta name="description" content="The hidden story behind the next station in London: short stories behind the names of all {len(STOPS)} stations of the Underground, Elizabeth line, Overground and DLR. An independent project, not affiliated with TfL.">
+<meta name="description" content="The hidden story behind the next station in London: short stories behind the names of all {len(STOPS)} stations of the Underground, Elizabeth line, Overground and DLR. An independent project made with AI (Claude, by Anthropic), not affiliated with TfL.">
 <meta name="theme-color" content="#16201f">
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="icon" href="icon-192.png" type="image/png">

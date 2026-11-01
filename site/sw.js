@@ -1,6 +1,6 @@
 // Stop Stories London offline support: keeps a copy of the app on the phone so it opens without a connection.
 // Change VERSION whenever the app is updated, so phones pick up the new files.
-const VERSION = "stop-stories-london-20261101-232626";
+const VERSION = "stop-stories-london-20261101-233641";
 const CORE = ["./", "index.html", "manifest.webmanifest", "icon-192.png", "icon-512.png", "apple-touch-icon.png"];
 
 self.addEventListener("install", e => {

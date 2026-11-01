@@ -24,7 +24,7 @@ async def main():
             if "!" in h: h, click = h.split("!", 1)
             await pg.goto("http://127.0.0.1:8765/index.html#" + h); await pg.reload(); await pg.wait_for_timeout(700)
             if click: await pg.click(click); await pg.wait_for_timeout(400)
-            await pg.screenshot(path=f"{OUTD}/{name}.png", full_page="full" in name)
+            await pg.screenshot(path=f"{OUTD}/{name}.png", full_page=("full" in name or name.startswith("about")))
         print("errors:", errs)
         await b.close()
 if __name__ == "__main__":

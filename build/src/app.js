@@ -120,6 +120,7 @@ function renderHome(){
     <hr class="home-rule after-grid">
     <footer class="home-foot">
       <nav class="foot-links"><a href="#about">${esc(t("aboutShort"))}</a><span aria-hidden="true">·</span><a href="mailto:${OWNER_EMAIL}?subject=Stop%20Stories%20London">${esc(t("contact"))}</a></nav>
+      <span class="copy ai-note"><a href="#about">${esc(t("madeWith"))}</a></span>
       <span class="copy">© ${new Date().getFullYear()} Stop Stories</span>
     </footer>
   </section>`;
@@ -273,30 +274,108 @@ const ABOUT = {
 en: `
   <h2>About Stop Stories</h2>
   <p>Every station in London has a name, and most of those names hide a story: an Old English farmstead, a vanished inn, a royal park, a forgotten river, an old dock or a famous person. Stop Stories tells these stories in a few lines, short enough to read between two stations. It covers the Underground, the Elizabeth line, London Overground and the DLR.</p>
+
+  <h3>Made with AI: Claude, by Anthropic</h3>
+  <p>This app was made with artificial intelligence. <b>Claude</b>, an AI model made by <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>, did most of the work:</p>
+  <ul class="about-list">
+    <li>researched the stations and wrote all the station texts in English;</li>
+    <li>translated them into French and German;</li>
+    <li>wrote the quiz questions;</li>
+    <li>designed the app and wrote all its code.</li>
+  </ul>
+  <p>All texts were then checked by separate Claude agents that had not written them. They compared every claim with the sources listed below; errors were corrected and uncertain claims were marked as uncertain. The idea, the choices and the final review are human. Anthropic is not involved in this project and is not responsible for it.</p>
+  <p>AI can make mistakes, and so can people. If something looks wrong, please tell us (see below).</p>
+
   <h3>Who is behind it</h3>
-  <p>Stop Stories is a small private project. It is <b>not</b> an official app of Transport for London (TfL), and it is not connected with TfL or any railway operator.</p>
-  <h3>Where the information comes from</h3>
-  <p>The texts are written from public sources, mainly Wikipedia, and each station links to its sources under "Read more". Many London place names go back to Old English, and their exact meaning is sometimes disputed; where scholars are unsure, the text says so. Lines, stations and their locations come from TfL's open data (Unified API). Powered by TfL Open Data; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
+  <p>Stop Stories is a small private, non-commercial project. It began as an app for the bus and tram stops of Luxembourg City; this is its London edition. It is <b>not</b> an official app of Transport for London (TfL), and it is not connected with TfL or any railway operator.</p>
+
+  <h3>Sources</h3>
+  <p>The stories are built on facts from these public sources. Under "Read more", every station links to the pages that were used for it.</p>
+  <ul class="about-list">
+    <li><b>Wikipedia</b>: the articles on each station and on the place, person or building it is named after. <a href="https://en.wikipedia.org/wiki/List_of_London_Underground_stations" target="_blank" rel="noopener">List of London Underground stations</a> for opening years and former names.</li>
+    <li><b>Londonist</b>: the series "How the … line stations got their names" (one article per Underground line and one for the Elizabeth line). It was the main starting point for the Underground and Elizabeth line stories. <a href="https://londonist.com/london/transport/how-the-central-line-stations-got-their-names" target="_blank" rel="noopener">Example: the Central line</a>.</li>
+    <li><b>Royal Docks</b>: <a href="https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names" target="_blank" rel="noopener">How the Royal Docks' 12 DLR stations got their names</a>.</li>
+    <li><b>A. D. Mills, <i>A Dictionary of London Place Names</i></b> (Oxford University Press): the standard reference for the meaning of London place names, used through the summaries in Wikipedia and Claude's general knowledge.</li>
+    <li><b>For the fact-check</b>, in addition: <a href="https://www.hidden-london.com" target="_blank" rel="noopener">Hidden London</a>, <a href="https://www.british-history.ac.uk" target="_blank" rel="noopener">British History Online</a>, the Enfield Society, the Hornsey Historical Society, the Parish of Hornchurch and the Online Etymology Dictionary.</li>
+    <li><b>Lines, stations and their locations</b>: <a href="https://tfl.gov.uk/info-for/open-data-users/" target="_blank" rel="noopener">TfL Open Data</a> (Unified API). Powered by TfL Open Data. Contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</li>
+  </ul>
+
+  <h3>How the sources were used</h3>
+  <p>Facts were taken from these sources and written up in new, short texts of our own. No text, image or map has been copied from them. Explaining London's station names is not a new idea: Londonist's series and books such as Cyril M. Harris's <i>What's in a Name?</i> did it long before us, and we gladly point readers to them. What Stop Stories adds is the format: one short story per station, in the order of the line, in three languages, to read on the move.</p>
+  <p>The names of the lines and the line colours are used only to show which line is which; they belong to TfL. "Underground", "Overground", "Elizabeth line" and "DLR" are TfL names. The app uses no TfL logo. The fonts (Atkinson Hyperlegible, Big Shoulders, IBM Plex Mono) are free fonts under the SIL Open Font License, served by Google Fonts. The icons and flags were drawn for this app.</p>
+
   <h3>Found a mistake?</h3>
-  <p>Use "Help us improve" on any station, or write to <a data-mail></a>. Thank you!</p>`,
+  <p>Use "Help us improve" on any station, or write to <a data-mail></a>. Corrections and missing sources are very welcome. Thank you!</p>`,
 fr: `
   <h2>À propos de Stop Stories</h2>
-  <p>Chaque station de Londres porte un nom, et la plupart de ces noms cachent une histoire\u00a0: une ferme anglo-saxonne, une auberge disparue, un parc royal, une rivière oubliée, un ancien dock ou un personnage célèbre. Stop Stories raconte ces histoires en quelques lignes, assez courtes pour être lues entre deux stations. L'application couvre le métro (Underground), l'Elizabeth line, le London Overground et le DLR.</p>
+  <p>Chaque station de Londres porte un nom, et la plupart de ces noms cachent une histoire : une ferme anglo-saxonne, une auberge disparue, un parc royal, une rivière oubliée, un ancien dock ou un personnage célèbre. Stop Stories raconte ces histoires en quelques lignes, assez courtes pour être lues entre deux stations. L'application couvre le métro (Underground), l'Elizabeth line, le London Overground et le DLR.</p>
+
+  <h3>Réalisé avec l'IA : Claude, d'Anthropic</h3>
+  <p>Cette application a été réalisée avec l'intelligence artificielle. <b>Claude</b>, un modèle d'IA créé par <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>, a fait l'essentiel du travail :</p>
+  <ul class="about-list">
+    <li>il a fait les recherches sur les stations et rédigé tous les textes en anglais ;</li>
+    <li>il les a traduits en français et en allemand ;</li>
+    <li>il a écrit les questions du quiz ;</li>
+    <li>il a conçu l'application et écrit tout son code.</li>
+  </ul>
+  <p>Tous les textes ont ensuite été vérifiés par d'autres agents Claude, qui ne les avaient pas écrits. Ils ont comparé chaque affirmation avec les sources citées ci-dessous ; les erreurs ont été corrigées et les points incertains signalés comme tels. L'idée, les choix et la relecture finale sont humains. Anthropic ne participe pas à ce projet et n'en est pas responsable.</p>
+  <p>L'IA peut se tromper, les humains aussi. Si quelque chose vous semble faux, dites-le-nous (voir plus bas).</p>
+
   <h3>Qui est derrière</h3>
-  <p>Stop Stories est un petit projet privé. Ce n'est <b>pas</b> une application officielle de Transport for London (TfL), et il n'a aucun lien avec TfL ni avec un exploitant ferroviaire.</p>
-  <h3>D'où viennent les informations</h3>
-  <p>Les textes sont rédigés à partir de sources publiques, surtout Wikipédia, et chaque station renvoie à ses sources sous « En savoir plus ». Beaucoup de noms de lieux londoniens remontent au vieil anglais, et leur sens exact est parfois discuté ; quand les spécialistes hésitent, le texte le dit. Les lignes, les stations et leur emplacement proviennent des données ouvertes de TfL (Unified API). Powered by TfL Open Data ; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
+  <p>Stop Stories est un petit projet privé et non commercial. Il a commencé par une application pour les arrêts de bus et de tram de la ville de Luxembourg ; voici son édition londonienne. Ce n'est <b>pas</b> une application officielle de Transport for London (TfL), et il n'a aucun lien avec TfL ni avec un exploitant ferroviaire.</p>
+
+  <h3>Sources</h3>
+  <p>Les histoires reposent sur des faits tirés de ces sources publiques. Sous « En savoir plus », chaque station renvoie aux pages utilisées pour elle.</p>
+  <ul class="about-list">
+    <li><b>Wikipédia</b> (en anglais) : les articles sur chaque station et sur le lieu, la personne ou le bâtiment qui lui a donné son nom. La <a href="https://en.wikipedia.org/wiki/List_of_London_Underground_stations" target="_blank" rel="noopener">liste des stations du métro de Londres</a> pour les dates d'ouverture et les anciens noms.</li>
+    <li><b>Londonist</b> : la série « How the … line stations got their names » (un article par ligne de métro et un pour l'Elizabeth line). Ce fut le principal point de départ des textes sur le métro et l'Elizabeth line. <a href="https://londonist.com/london/transport/how-the-central-line-stations-got-their-names" target="_blank" rel="noopener">Exemple : la Central line</a>.</li>
+    <li><b>Royal Docks</b> : <a href="https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names" target="_blank" rel="noopener">How the Royal Docks' 12 DLR stations got their names</a>.</li>
+    <li><b>A. D. Mills, <i>A Dictionary of London Place Names</i></b> (Oxford University Press) : l'ouvrage de référence sur le sens des noms de lieux londoniens, utilisé à travers les résumés de Wikipédia et les connaissances générales de Claude.</li>
+    <li><b>Pour la vérification</b>, en plus : <a href="https://www.hidden-london.com" target="_blank" rel="noopener">Hidden London</a>, <a href="https://www.british-history.ac.uk" target="_blank" rel="noopener">British History Online</a>, l'Enfield Society, la Hornsey Historical Society, la paroisse de Hornchurch et l'Online Etymology Dictionary.</li>
+    <li><b>Lignes, stations et leur emplacement</b> : <a href="https://tfl.gov.uk/info-for/open-data-users/" target="_blank" rel="noopener">TfL Open Data</a> (Unified API). Powered by TfL Open Data. Contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</li>
+  </ul>
+
+  <h3>Comment les sources ont été utilisées</h3>
+  <p>Les faits ont été tirés de ces sources et rédigés dans de nouveaux textes courts, avec nos propres mots. Aucun texte, aucune image et aucune carte n'en a été copié. Expliquer les noms des stations de Londres n'est pas une idée nouvelle : la série de Londonist et des livres comme <i>What's in a Name?</i> de Cyril M. Harris l'ont fait bien avant nous, et nous y renvoyons volontiers. Ce que Stop Stories apporte, c'est la forme : une courte histoire par station, dans l'ordre de la ligne, en trois langues, à lire en route.</p>
+  <p>Les noms des lignes et leurs couleurs servent uniquement à les distinguer ; ils appartiennent à TfL. « Underground », « Overground », « Elizabeth line » et « DLR » sont des noms de TfL. L'application n'utilise aucun logo de TfL. Les polices (Atkinson Hyperlegible, Big Shoulders, IBM Plex Mono) sont des polices libres sous licence SIL Open Font License, fournies par Google Fonts. Les icônes et les drapeaux ont été dessinés pour cette application.</p>
+
   <h3>Vous avez trouvé une erreur ?</h3>
-  <p>Utilisez « Une erreur ? » sur n'importe quelle station, ou écrivez à <a data-mail></a>. Merci !</p>`,
+  <p>Utilisez « Une erreur ? » sur n'importe quelle station, ou écrivez à <a data-mail></a>. Les corrections et les sources manquantes sont les bienvenues. Merci !</p>`,
 de: `
   <h2>Über Stop Stories</h2>
   <p>Jede Station in London hat einen Namen, und hinter den meisten dieser Namen steckt eine Geschichte: ein angelsächsischer Hof, ein verschwundenes Gasthaus, ein königlicher Park, ein vergessener Fluss, ein altes Hafenbecken oder eine berühmte Person. Stop Stories erzählt diese Geschichten in wenigen Zeilen, kurz genug, um sie zwischen zwei Stationen zu lesen. Die App umfasst die U-Bahn (Underground), die Elizabeth line, die London Overground und die DLR.</p>
+
+  <h3>Mit KI erstellt: Claude von Anthropic</h3>
+  <p>Diese App wurde mit künstlicher Intelligenz erstellt. <b>Claude</b>, ein KI-Modell von <a href="https://www.anthropic.com" target="_blank" rel="noopener">Anthropic</a>, hat den größten Teil der Arbeit gemacht:</p>
+  <ul class="about-list">
+    <li>die Stationen recherchiert und alle Stationstexte auf Englisch geschrieben;</li>
+    <li>sie ins Französische und Deutsche übersetzt;</li>
+    <li>die Quizfragen geschrieben;</li>
+    <li>die App gestaltet und ihren gesamten Code geschrieben.</li>
+  </ul>
+  <p>Alle Texte wurden danach von eigenen Claude-Agenten geprüft, die sie nicht geschrieben hatten. Sie verglichen jede Angabe mit den unten genannten Quellen; Fehler wurden korrigiert und unsichere Angaben als unsicher gekennzeichnet. Die Idee, die Entscheidungen und die letzte Durchsicht sind menschlich. Anthropic ist an diesem Projekt nicht beteiligt und nicht dafür verantwortlich.</p>
+  <p>KI kann Fehler machen, Menschen auch. Wenn Ihnen etwas falsch vorkommt, sagen Sie es uns bitte (siehe unten).</p>
+
   <h3>Wer steckt dahinter</h3>
-  <p>Stop Stories ist ein kleines privates Projekt. Es ist <b>keine</b> offizielle App von Transport for London (TfL) und steht weder mit TfL noch mit einem Bahnbetreiber in Verbindung.</p>
-  <h3>Woher die Informationen stammen</h3>
-  <p>Die Texte beruhen auf öffentlichen Quellen, vor allem auf Wikipedia, und jede Station verweist unter „Mehr erfahren“ auf ihre Quellen. Viele Londoner Ortsnamen gehen auf das Altenglische zurück, und ihre genaue Bedeutung ist manchmal umstritten; wo die Fachleute unsicher sind, sagt der Text das. Linien, Stationen und ihre Lage stammen aus den offenen Daten von TfL (Unified API). Powered by TfL Open Data; contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</p>
+  <p>Stop Stories ist ein kleines privates, nicht kommerzielles Projekt. Es begann als App für die Bus- und Tramhaltestellen der Stadt Luxemburg; dies ist die Londoner Ausgabe. Es ist <b>keine</b> offizielle App von Transport for London (TfL) und steht weder mit TfL noch mit einem Bahnbetreiber in Verbindung.</p>
+
+  <h3>Quellen</h3>
+  <p>Die Geschichten beruhen auf Fakten aus diesen öffentlichen Quellen. Unter „Mehr erfahren“ verweist jede Station auf die Seiten, die für sie verwendet wurden.</p>
+  <ul class="about-list">
+    <li><b>Wikipedia</b> (englisch): die Artikel über jede Station und über den Ort, die Person oder das Gebäude, nach dem sie benannt ist. Die <a href="https://en.wikipedia.org/wiki/List_of_London_Underground_stations" target="_blank" rel="noopener">Liste der Londoner U-Bahn-Stationen</a> für Eröffnungsjahre und frühere Namen.</li>
+    <li><b>Londonist</b>: die Reihe „How the … line stations got their names“ (ein Artikel pro U-Bahn-Linie und einer für die Elizabeth line). Sie war der wichtigste Ausgangspunkt für die Texte zur U-Bahn und zur Elizabeth line. <a href="https://londonist.com/london/transport/how-the-central-line-stations-got-their-names" target="_blank" rel="noopener">Beispiel: die Central line</a>.</li>
+    <li><b>Royal Docks</b>: <a href="https://royaldocks.london/articles/how-the-royal-docks-12-dlr-stations-got-their-names" target="_blank" rel="noopener">How the Royal Docks' 12 DLR stations got their names</a>.</li>
+    <li><b>A. D. Mills, <i>A Dictionary of London Place Names</i></b> (Oxford University Press): das Standardwerk zur Bedeutung Londoner Ortsnamen, genutzt über die Zusammenfassungen in Wikipedia und das Allgemeinwissen von Claude.</li>
+    <li><b>Für die Faktenprüfung</b> zusätzlich: <a href="https://www.hidden-london.com" target="_blank" rel="noopener">Hidden London</a>, <a href="https://www.british-history.ac.uk" target="_blank" rel="noopener">British History Online</a>, die Enfield Society, die Hornsey Historical Society, die Pfarrei Hornchurch und das Online Etymology Dictionary.</li>
+    <li><b>Linien, Stationen und ihre Lage</b>: <a href="https://tfl.gov.uk/info-for/open-data-users/" target="_blank" rel="noopener">TfL Open Data</a> (Unified API). Powered by TfL Open Data. Contains OS data © Crown copyright and database rights 2016 and Geomni UK Map data © and database rights 2019.</li>
+  </ul>
+
+  <h3>Wie die Quellen verwendet wurden</h3>
+  <p>Die Fakten stammen aus diesen Quellen und wurden in neuen, kurzen Texten mit eigenen Worten aufgeschrieben. Kein Text, kein Bild und keine Karte wurde daraus kopiert. Die Namen der Londoner Stationen zu erklären, ist keine neue Idee: Die Reihe von Londonist und Bücher wie <i>What's in a Name?</i> von Cyril M. Harris haben das lange vor uns getan, und wir verweisen gern darauf. Was Stop Stories beiträgt, ist die Form: eine kurze Geschichte pro Station, in der Reihenfolge der Linie, in drei Sprachen, zum Lesen unterwegs.</p>
+  <p>Die Namen der Linien und ihre Farben dienen nur dazu, die Linien zu unterscheiden; sie gehören TfL. „Underground“, „Overground“, „Elizabeth line“ und „DLR“ sind Namen von TfL. Die App verwendet kein Logo von TfL. Die Schriften (Atkinson Hyperlegible, Big Shoulders, IBM Plex Mono) sind freie Schriften unter der SIL Open Font License, bereitgestellt von Google Fonts. Die Symbole und Flaggen wurden für diese App gezeichnet.</p>
+
   <h3>Einen Fehler gefunden?</h3>
-  <p>Nutzen Sie „Fehler melden“ bei jeder Station oder schreiben Sie an <a data-mail></a>. Danke!</p>`
+  <p>Nutzen Sie „Fehler melden“ bei jeder Station oder schreiben Sie an <a data-mail></a>. Korrekturen und fehlende Quellen sind sehr willkommen. Danke!</p>`
 };
 
 // Shrink a long station name until it fits between the arrows

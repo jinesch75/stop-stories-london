@@ -41,3 +41,9 @@
 
 /* line-coloured accents on the line and station pages */
 .fb-about .lineno{background:var(--lc);color:var(--lc-ink);font-size:14px;min-width:0;padding:0 8px}
+
+/* About page: lists of what the AI did and of the sources */
+.about-list{margin:-6px 0 0;padding-left:20px;display:flex;flex-direction:column;gap:6px;max-width:62ch}
+.about-list li{line-height:1.45}
+.about-page a{overflow-wrap:anywhere}
+.home-foot .ai-note a{font-weight:400;color:var(--muted)}
