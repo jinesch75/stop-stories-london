@@ -26,6 +26,7 @@ const ICON_OUT = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" st
 const ICON_PIN = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="3.2"/><path d="M12 2.5v3M12 18.5v3M2.5 12h3M18.5 12h3"/><circle cx="12" cy="12" r="7"/></svg>';
 const ICON_PLAY = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3.5" y="3.5" width="17" height="17" rx="4"/><circle cx="8.5" cy="8.5" r="1.3" fill="currentColor"/><circle cx="15.5" cy="15.5" r="1.3" fill="currentColor"/><circle cx="12" cy="12" r="1.3" fill="currentColor"/></svg>';
 const ICON_BRANCH = '<svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="5" r="2"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="7" r="2"/><path d="M6 7v10M18 9c0 5-12 3-12 8"/></svg>';
+const ICON_CHEV = '<svg class="chev" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>';
 const X_SVG = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg>';
 
 const LANG_NAMES = { en: "English", fr: "Français", de: "Deutsch" };
@@ -94,12 +95,15 @@ function renderHome(){
   nav.hidden = true; app.classList.remove("has-acts", "stop-page"); stepNav = null;
   const tile = id => { const T = TUBE[id];
     return `<button class="tube-tile" data-tube="${esc(id)}" style="${lcStyle(id)}"><span class="bar" aria-hidden="true"></span><b>${esc(T.name)}</b></button>`; };
+  const open = store("linesOpen") === "1";
   app.innerHTML = `
   <section class="view home">
     <hr class="home-rule">
-    <div class="tube-card">
-      <p class="tube-lead">${esc(t("choose"))}</p>
-      <div class="tube-grid">${TUBE_ORDER.map(tile).join("")}</div>
+    <div class="lines-card tube-card${open ? " open" : ""}">
+      <button class="lines-toggle" id="linesToggle" aria-expanded="${open}" aria-controls="lineGrid">
+        <span class="lt-text">${esc(t("choose"))}</span>${ICON_CHEV}
+      </button>
+      <div class="tube-grid" id="lineGrid"${open ? "" : " hidden"}>${TUBE_ORDER.map(tile).join("")}</div>
     </div>
     <hr class="home-rule mid-rule">
     <div class="finder">
@@ -119,6 +123,10 @@ function renderHome(){
     const id = b.dataset.tube, rid = TUBE[id].routes.includes(store("route-" + id)) ? store("route-" + id) : TUBE[id].routes[0];
     go("l" + rid + "-" + (store("dir" + rid) || "a"));
   });
+  // Fold-out line picker, as in the Luxembourg edition; the open/closed state is remembered
+  const tog = document.getElementById("linesToggle"), grid = document.getElementById("lineGrid");
+  tog.onclick = () => { const on = grid.hidden; grid.hidden = !on; tog.setAttribute("aria-expanded", on);
+    tog.parentElement.classList.toggle("open", on); store("linesOpen", on ? "1" : "0"); };
   const found = document.getElementById("found");
   const show = html => { found.innerHTML = html; wireResults(found); };
   document.getElementById("playBtn").onclick = () => go("play");

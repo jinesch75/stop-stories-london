@@ -10,9 +10,10 @@
 .lineno[hidden]{display:none}
 
 /* home: the eleven lines as named rows with a colour bar */
-.tube-card{background:var(--surface);border:1px solid var(--line);border-radius:14px;box-shadow:0 1px 2px rgba(0,0,0,.05);padding:14px 14px 16px}
-.tube-lead{margin:2px 2px 12px;font-size:16px;font-weight:600}
-.tube-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.tube-card .tube-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:2px 14px 16px}
+.tube-card .tube-grid[hidden]{display:none}
+.tube-card .lines-toggle{font-size:17px}
+.tube-card .lines-toggle .chev{color:var(--muted)}
 .tube-tile{display:flex;align-items:center;gap:10px;min-height:48px;padding:6px 10px 6px 0;border:1px solid var(--line);border-radius:11px;background:var(--surface);color:var(--ink);cursor:pointer;text-align:left;overflow:hidden;box-shadow:0 1px 2px rgba(0,0,0,.08),0 4px 10px rgba(13,60,55,.12);transition:transform .12s,border-color .12s}
 .tube-tile:hover{border-color:var(--muted)}
 .tube-tile:active{transform:scale(.97)}
