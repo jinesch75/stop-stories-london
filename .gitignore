@@ -1,6 +1,0 @@
-__pycache__/
-build/research/pages.json
-build/research/fetch.log
-build/research/etym.*
-.DS_Store
-node_modules/
